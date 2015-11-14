@@ -1,8 +1,8 @@
 ---
 layout: post
 title: This is the blog
-categories: featured, homepage
-background_image: {{ site.baseurl }}/images/we-are-data.png
+categories: ["featured", "homepage"]
+background_image: "/images/we-are-data.png"
 ---
  
 Our new blog is for documenting stuff, which is useful for the people
