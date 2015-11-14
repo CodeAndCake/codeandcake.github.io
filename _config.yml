@@ -75,3 +75,6 @@ exclude:
     - LICENSE
     - README.md
     - CNAME
+
+# OUR OWN STUFF
+eventbrite_url: 'https://www.eventbrite.co.uk/e/design-and-code-your-own-app-15-16-term-2-gdsdcyoa152-tickets-19058017042'
