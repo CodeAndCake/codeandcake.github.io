@@ -75,7 +75,10 @@ layout: default
 				<div class="grid grid-pad">
 					{% for post in site.categories.featured %}
 						<div class="col-1-2">
-							<!-- TODO -->
+							{% 	
+								include home-blog-snippet.html 
+								background_image="{{ post.background_image }}" 
+							%}
 						</div>
 					{% endfor %}
 				</div>

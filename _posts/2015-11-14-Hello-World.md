@@ -2,6 +2,7 @@
 layout: post
 title: This is the blog
 categories: featured, homepage
+background_image: {{ site.baseurl }}/images/we-are-data.png
 ---
 
 Do you want to play a game?   
