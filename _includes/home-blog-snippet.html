@@ -1,14 +1,13 @@
 <article class="post">
 	<header class="entry-header">
-		<div class="archive-news-post" style="background-image: url('{{ include.background_image }}');">
-			<div class="layer" style="background-color: rgba(<?php echo get_field('colour_overlay');?>);">
+		<div class="archive-news-post" style="background-image: url('{{ site.baseurl }}{{ post.background_image }}');">
+			<div class="layer" style="background-color: {{ post.colour_overlay }}">
 			</div>
 			<h2>
 				<a href="{{ site.baseurl }}{{ post.url }}">
 					{{ post.title }}
 				</a>
 			</h2>
-			YOYOYO!
 		</div>
 	</header>
 </article>
