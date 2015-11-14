@@ -2,17 +2,142 @@
 layout: default
 ---
 
+<section id="home-hero" style="background-image: url('{{ site.baseurl }}/images/home_bg_image.jpg');"> 
+	<div class="grid grid-pad">
+		<div class="col-1-1">
+			<h1>{{ site.description }}</h1>
+			<a href="{{ site.eventbrite_url }}" class="featured-link"> 
+				<button>I want to learn</button>
+			</a> 	
+		</div>
+	</div>
+</section>
+
+<section id="page-content-container" class="blog-post-archive">
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+			<!-- INTRO -->
+			<div class="intro">
+				<div class="grid grid-pad">        
+					<div class="col-1-1">
+						<h1>Hello there!</h1>
+						<h3>Get designing and coding to create your own app prototype. We make it simple for you on our 6 week Saturday course at Ravensbourne. Take a look!</h3>
+					</div>
+				</div>
+			</div>
+
+			<!-- INFO PANELS -->
+			<div class="info-panels">
+				<div class="grid grid-pad single-info-panel">
+					<div class="col-1-2 info-panel-blurb">    
+						<h1><?php echo get_sub_field('panel_number');?></h1>
+							<?php echo get_sub_field('info_panel_text');?>
+					</div>
+					<div class="col-1-2 info-panel-image" style="background-image: url('<?php echo $infoPanelImage['url'] ;?>');">
+					</div>
+				</div>
+				<!-- times 6 -->
+			</div>
+
+			<!-- TESTIMONIALS -->
+			<div class="testimonials">
+				<div class="grid grid-pad">        
+					<div class="col-1-1">
+						<div class="section-intro">
+							<h1>What are people saying?</h1>
+						</div>
+					</div>
+				</div>
+				<div class="grid grid-pad">
+					<div class="col-1-4">
+						<div class="user-pic" style="background-image: url('<?php echo $userPic['url'] ; ?>');"></div>
+						<blockquote>
+							Pretty good yas, I was afraid but now I am not
+						</blockquote>
+					</div>
+					<!-- times 4 -->
+				</div>
+			</div>
+
+			<!-- BLOG -->
+			<div class="blog-feed-mini">
+				<div class="grid grid-pad">
+					<div class="col-1-1">
+						<div class="section-intro">
+							<h1>Blog</h1>
+							<h3>Read about student experiences and find inspiration, tutorials and resources to help you on your learning journey</h3>
+						</div>
+					</div>
+				</div>
+
+				<!-- FEATURED -->
+				<div class="grid grid-pad">
+					{% for post in site.categories.featured %}
+						<div class="col-1-2">
+							<!-- TODO -->
+						</div>
+					{% endfor %}
+				</div>
+
+				<!-- ANOTHER CATEGORY -->
+				<div class="grid grid-pad">
+					{% for post in site.categories.homepage %}
+						<div class="col-1-2">
+							<!-- TODO -->
+						</div>
+					{% endfor %}
+				</div>
+
+				<!-- OUTRO -->
+				<div class="outro">
+					<div class="grid grid-pad">
+						<div class="col-1-1">
+							<h2>There's more...</h2>
+						</div>
+					</div>
+				</div>
+			</div>	
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+</section>
+
+
+<!-- WORKSHEETS OPT-IN -->
+
+<section class="opt-in">
+	<div class="grid grid-pad">
+		<div class="col-1-1">
+			<div class="content">
+				<div class="banner-image" style="background-image: url('{{ site.baseurl }}/images/negativespace-14.png');">
+					<div class="grid grid-pad">        
+						<div class="col-1-1">
+							<h1>Free printable worksheets</h1>
+							<h2>To help you plan and design your own app</h2>
+							<a href="#" class="featured-link"><button>Download now</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
+	<article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+	  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+	  <div class="entry">
+		{{ post.excerpt }}
+	  </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+	  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+	</article>
   {% endfor %}
-</div>
+</div> 
+-->
