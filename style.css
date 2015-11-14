@@ -1,4 +1,5 @@
-
+@import 'fonts/etica-ttf.css';
+@import 'fonts/etica-light-ttf.css';
 
 
 html {
@@ -228,7 +229,7 @@ textarea
 {
 
 	font-family: "Etica", -apple-system-font, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #404040;
+	color: #ffffff;
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 1.6;
@@ -833,9 +834,9 @@ ul.social-media-icons {
 }
 
 #home-hero h1 {
-	font-size: 7rem;
-	line-height: 7rem;
-	font-weight: 400;
+	font-size: 6rem;
+	line-height: 6rem;
+	font-weight: 700;
 }
 
 #home-hero h1, #home-hero p, #home-hero button, .banner-image h1, .banner-image h2, .banner-image a.featured-link {
