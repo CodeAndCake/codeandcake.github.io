@@ -50,13 +50,12 @@ layout: default
 					</div>
 				</div>
 				<div class="grid grid-pad">
+					{% for post in site.categories.testimonials %}
 					<div class="col-1-4">
-						<div class="user-pic" style="background-image: url('images/appmaking_Damian_Zaleski.jpeg');"></div>
-						<blockquote>
-							Pretty good yas, I was afraid but now I am not
-						</blockquote>
+						{{ content }}
+						{% include home-testimonial-snippet.html %}
 					</div>
-					<!-- times 4 -->
+					{% endfor %}
 				</div>
 			</div>
 
@@ -74,9 +73,9 @@ layout: default
 				<!-- FEATURED -->
 				<div class="grid grid-pad">
 					{% for post in site.categories.featured %}
-						<div class="col-1-2">
-							{% include home-blog-snippet.html %}
-						</div>
+					<div class="col-1-2">
+						{% include home-blog-snippet.html %}
+					</div>
 					{% endfor %}
 				</div>
 
