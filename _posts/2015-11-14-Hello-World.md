@@ -4,12 +4,10 @@ title: This is the blog
 categories: featured, homepage
 background_image: {{ site.baseurl }}/images/we-are-data.png
 ---
-
-Do you want to play a game?   
-
+ 
 Our new blog is for documenting stuff, which is useful for the people
 
-![_config.yml]({{ site.baseurl }}/images/we-are-data.png)
+![we-are-data](/images/we-are-data.png)
 
 [This](http://wearedata.watchdogs.com/) is a cool site you know?
 
