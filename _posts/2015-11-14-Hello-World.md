@@ -1,6 +1,7 @@
 ---
 layout: post
-title: This is the blog.
+title: This is the blog
+categories: featured, homepage
 ---
 
 Our new blog is for documenting stuff, which is useful for the people
