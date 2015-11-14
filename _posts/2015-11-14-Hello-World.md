@@ -3,6 +3,8 @@ layout: post
 title: This is the blog.
 ---
 
+Do you want to play a game?   
+
 Our new blog is for documenting stuff, which is useful for the people
 
 ![_config.yml]({{ site.baseurl }}/images/we-are-data.png)
