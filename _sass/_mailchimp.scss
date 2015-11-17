@@ -1,0 +1,29 @@
+/*    MAILCHIMP FORM   */
+
+#mc_embed_signup
+{
+	clear:left;
+
+	input[type="submit"]
+	{
+		border: 3px solid;
+	}
+
+	.mc-field-group
+	{
+		width: 47%;
+		float: left;
+		margin: 0.5rem;
+		clear: none;
+	}
+
+	form
+	{
+		padding: 0;
+	}
+}
+
+#mc-embedded-subscribe
+{
+	margin: 2rem auto;
+}

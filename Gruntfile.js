@@ -13,17 +13,28 @@ module.exports = function (grunt) {
                 }
             }
         },
+        sass: {
+          dist: {
+            options: {
+              style: 'expanded'
+            },
+            files: {
+              'sassy.css': '_sass/sassy.scss'
+            }
+          }
+        },
         watch: {
           livereload: {
             files: [
-                '_config.yml',
-                'index.html',
-                '*.css',
-                '_layouts/**',
-                '_posts/**',
-                '_includes/**',
+              '_config.yml',
+              'index.html',
+              '*.css',
+              '_sass/**',
+              '_layouts/**',
+              '_posts/**',
+              '_includes/**'
             ],
-            tasks: ['shell:jekyllBuild'],
+            tasks: ['sass', 'shell:jekyllBuild'],
             options: {
               livereload: true
             },
@@ -31,6 +42,7 @@ module.exports = function (grunt) {
         }
     })
 
+    grunt.loadNpmTasks('grunt-contrib-sass')
     grunt.loadNpmTasks('grunt-contrib-connect')
     grunt.loadNpmTasks('grunt-contrib-watch')
     grunt.loadNpmTasks('grunt-shell')
