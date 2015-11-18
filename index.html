@@ -21,7 +21,7 @@ layout: default
 			<div class="intro">
 				<div class="grid grid-pad">        
 					<div class="col-1-1">
-						<h1>We make it simple!</h1>
+						<h2>We make it simple!</h2>
 						<h3>Delve into the design process and code your own prototype over our 6 week Saturday course at Ravensbourne</h3>
 					</div>
 				</div>
@@ -86,13 +86,13 @@ layout: default
 				<div class="grid grid-pad">        
 					<div class="col-1-1">
 						<div class="section-intro">
-							<h1>What are people saying?</h1>
+							<h2>What are people saying?</h2>
 						</div>
 					</div>
 				</div>
 				<div class="grid grid-pad">
 					{% for post in site.categories.testimonials %}
-					<div class="col-1-4 mobile-col-1-1">
+					<div class="col-1-2 mobile-col-1-1 single-testimonial">
 						{{ content }}
 						{% include home-testimonial-snippet.html %}
 					</div>
@@ -105,22 +105,22 @@ layout: default
 				<div class="grid grid-pad">        
 					<div class="col-1-1">
 						<div class="section-intro">
-							<h1>When, where and how much?</h1>
+							<h2>When, where and how much?</h2>
 						</div>
 					</div>
 				</div>
 				<div class="grid grid-pad">        
 					<div class="col-1-1 .mobile-col-1-1">
 						<div class="info-block">
-							<h2>6 Saturdays from:</h2>
-							<h3>13th February - 19th March 2016</h3>
-							<h3>11:00am - 16:00pm</h3>
+							<h3>6 Saturdays from:</h3>
+							<p>13th February - 19th March 2016</p>
+							<p>11:00am - 16:00pm</p>
 						</div>
 						<div class="info-block">
-							<h2>Ravensbourne:</h2>
-							<h3>6 Penrose Way</br>Greenwich Peninsula</br>London</br>SE10 0EW</h3>
-							<h2>Tube:</h2>
-							<h3>North Greenwich</h3>
+							<h3>Ravensbourne:</h3>
+							<p>6 Penrose Way</br>Greenwich Peninsula</br>London</br>SE10 0EW</p>
+							<h3>Tube:</h3>
+							<p>North Greenwich</p>
 							
 						</div>
 						<div class="info-block">
@@ -160,27 +160,32 @@ layout: default
 				<div class="grid grid-pad">        
 					<div class="col-1-1">
 						<div class="section-intro">
-							<h1>FAQS</h1>
-							<div class="question">
-								<h3>Do I need to bring anything?</h3>
-								<p>We provide Macbooks for you to use, however if you have a laptop you prefer using then bring that along.<br>An oldfashioned notebook and pen may be handy for logging important stuff!</p>
-							</div>
-							<div class="question">
-								<h3>Do I need to bring anything?</h3>
-								<p>We provide Macbooks for you to use, however if you have a laptop you prefer using then bring that along.<br>An oldfashioned notebook and pen may be handy for logging important stuff!</p>
-							</div>
-							<div class="question">
-								<h3>Do I need to bring anything?</h3>
-								<p>We provide Macbooks for you to use, however if you have a laptop you prefer using then bring that along.<br>An oldfashioned notebook and pen may be handy for logging important stuff!</p>
-							</div>
-							<div class="question">
-								<h3>Do I need to bring anything?</h3>
-								<p>We provide Macbooks for you to use, however if you have a laptop you prefer using then bring that along.<br>An oldfashioned notebook and pen may be handy for logging important stuff!</p>
-							</div>
-							<div class="register">
-							<a href="https://www.eventbrite.co.uk/e/design-and-code-your-own-app-15-16-term-2-gdsdcyoa152-tickets-19058017042" class="featured-link"><button>Book your place</button></a>
+							<h2>FAQS</h2>
 						</div>
+					</div>
+				</div>
+				<div class="grid grid-pad">        
+					<div class="col-1-1">
+						<div class="question">
+							<h3>Do I need to bring anything?</h3>
+							<p>We provide Macbooks for you to use, however if you have a laptop you prefer using then bring that along.<br>An oldfashioned notebook and pen may be handy for logging important stuff!</p>
 						</div>
+						<div class="question">
+							<h3>Do I need to bring anything?</h3>
+							<p>We provide Macbooks for you to use, however if you have a laptop you prefer using then bring that along.<br>An oldfashioned notebook and pen may be handy for logging important stuff!</p>
+						</div>
+						<div class="question">
+							<h3>Do I need to bring anything?</h3>
+							<p>We provide Macbooks for you to use, however if you have a laptop you prefer using then bring that along.<br>An oldfashioned notebook and pen may be handy for logging important stuff!</p>
+						</div>
+						<div class="question">
+							<h3>Do I need to bring anything?</h3>
+							<p>We provide Macbooks for you to use, however if you have a laptop you prefer using then bring that along.<br>An oldfashioned notebook and pen may be handy for logging important stuff!</p>
+						</div>
+						<div class="register">
+						<a href="https://www.eventbrite.co.uk/e/design-and-code-your-own-app-15-16-term-2-gdsdcyoa152-tickets-19058017042" class="featured-link"><button>Book your place</button></a>
+						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -225,7 +230,7 @@ layout: default
 				<div class="grid grid-pad">
 					<div class="col-1-1">
 						<div class="section-intro">
-							<h1>Blog</h1>
+							<h2>Blog</h2>
 							<!-- <h3>Read about student experiences and find inspiration, tutorials and resources to help you on your learning journey</h3> -->
 						</div>
 					</div>
@@ -273,8 +278,8 @@ layout: default
 				<div class="banner-image" style="background-image: url('{{ site.baseurl }}/images/negativespace-14.jpg');">
 					<div class="grid grid-pad">        
 						<div class="col-1-1">
-							<h1>Free printable worksheets</h1>
-							<h2>To help you plan and design your own app</h2>
+							<h2>Free printable worksheets</h2>
+							<h3>To help you plan and design your own app</h3>
 							<a href="#" class="featured-link"><button>Download now</button></a>
 						</div>
 					</div>
