@@ -1,0 +1,278 @@
+/*---------------- AIMEE CSS WARNING -------------------*/
+
+
+
+/*     INTRO AND SECTION INTRO    */
+
+body .grid-pad,
+body [class*='col-']
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+h1
+{
+	font-size: 8rem;
+}
+
+h2
+{
+	font-size: 6rem;
+}
+
+h3
+{
+	font-size: 4rem;
+}
+
+.intro
+{
+	margin: 12rem 0 7rem;
+
+	h2
+	{
+		text-align: center;
+	}
+
+	h3
+	{
+		margin: 0 12rem 5rem;
+	}
+}
+
+.section-intro
+{
+	margin: 12rem 0 7rem;
+
+	h2
+	{
+		text-align: center;
+		margin-bottom: 5rem;
+		line-height: 5rem;
+	}
+
+	.question
+	{
+		margin: 0 12rem 5rem;
+	}
+}
+
+
+/*     INFO PANEL     */
+
+.info-panels
+{
+	.info-panel-blurb
+	{
+		height: 400px;
+    	display: table;
+	}
+	.info-panel-image
+	{
+		height: 400px;
+	    margin: 0 auto;
+	    display: block;
+	    background: #ccc;
+	    background-position: center center;
+	    background-size: cover;
+	}
+
+	.single-info-panel:nth-child(even) .info-panel-blurb
+	{
+		left: 50%;
+		position: relative;
+	}
+
+	.single-info-panel:nth-child(even) .info-panel-image
+	{
+		right: 50%;
+		position: relative;
+	}
+
+	.grid-pad.single-info-panel
+	{
+		padding: 0;
+	}
+
+	.single-info-panel .col-1-2
+	{
+		padding: 0px;
+	}
+
+	.info-panel-blurb h1
+	{
+		font-size: 7rem;
+	    padding: 7rem 7rem 0;
+	}
+
+	.info-panel-blurb p
+	{
+		padding: 0 7rem;
+	}
+}
+
+/*     OPT-IN PRE-FOOTER    */
+
+.opt-in
+{
+	.grid-pad,
+	.col-1-1
+	{
+	 	padding: 0;
+	}
+
+	.grid
+	{
+	 	max-width: 2000px;
+	 	margin-top: 12rem;
+	}
+
+	.banner-image
+	{
+		height: 21rem;
+		background-size: cover;
+		width: 100%;
+		/*margin: 8rem 0;*/
+		text-align: center;
+	}
+
+	.banner-image .col-1-1
+	{
+		margin-top: 3rem;
+	}
+
+}
+
+
+/*     TESTIMONIALS     */
+ 
+.single-testimonial[class*='col-']
+{
+	
+	padding: 0 3rem 3rem;
+
+	.user-pic
+	{
+		height: 20vw;
+		width: 20vw;
+		border-radius: 200px;
+		background-size: cover;
+		margin: 2rem auto;
+	}
+
+	.user-quote
+	{
+		width: 20vw;
+		height: auto;
+		margin-top: 2rem;
+	}
+
+}
+
+
+
+
+ /*     BLOG MINI-FEED     */
+
+.blog-feed-mini
+{
+	.archive-news-post
+	{
+	 	position: relative;
+	 	background-size: cover;
+
+	 	h2
+	 	{
+	 		position: absolute;
+		 	font-size: 3rem;
+		 	padding: 7rem 7rem;
+
+	 	}
+
+	 	h2 a
+		{
+		 	color: white;
+		 	height: 100%;
+		}
+	}
+
+	.layer
+	{
+	 	background-color: rgba(248, 247, 216, 0.5);
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+
+	.grid-pad,
+	.col-1-2
+	{
+		padding: 0;
+	}
+
+	.section-intro h3
+	{
+		margin: 0 12rem 5rem;
+	}
+
+}
+ 
+
+
+/*   OUTRO   */
+
+.outro 
+{
+	h2
+	{
+		text-align: center;
+		margin-top: 4rem;
+	}
+}
+
+
+/*    INFO PANELS    */
+
+.when-where-how 
+{
+	.info-block
+	{
+		margin: 0 12rem 5rem;
+		padding: 2rem 3rem;
+		background-color: rgba(203, 232, 226, .4);
+		border-bottom: 1rem solid rgba(255, 226, 80, 1);
+	}
+
+	/* not working - look into */
+	table tr td
+	{
+		padding-top: 3rem;
+    	padding-right: 1rem;
+	}
+}
+
+// REGISTER BUTTON
+
+.register
+{
+	text-align: center;
+
+}
+
+a.featured-link button
+{
+	padding: 1.8rem 3rem 1.6rem;
+	font-size: 1rem;
+	font-weight: 600;
+    text-transform: uppercase;
+}
+
+a.featured-link
+{
+	margin: 0 auto;
+	text-align: center;
+}
+

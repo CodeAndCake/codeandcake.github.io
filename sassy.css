@@ -144,12 +144,12 @@ h1 {
 
 h2 {
   font-size: 32px;
-  line-height: 36px;
+  line-height: 3rem;
 }
 
 h3 {
   font-size: 28px;
-  line-height: 32px;
+  line-height: 2.5rem;
   font-weight: 400;
 }
 
@@ -1946,6 +1946,212 @@ body {
   margin: 0 auto;
 }
 
+/*    MAILCHIMP FORM   */
+#mc_embed_signup {
+  clear: left;
+  margin: 0 12rem 5rem;
+  padding: 2rem 3rem;
+  background-color: rgba(203, 232, 226, 0.4);
+  border-bottom: 1rem solid #ffe250;
+}
+#mc_embed_signup input[type="submit"] {
+  border: 3px solid;
+}
+#mc_embed_signup .mc-field-group {
+  width: 47%;
+  float: left;
+  margin: 0.5rem;
+  clear: none;
+}
+#mc_embed_signup form {
+  padding: 0;
+}
+
+#mc-embedded-subscribe {
+  margin: 2rem auto;
+}
+
+/*---------------- AIMEE CSS WARNING -------------------*/
+/*     INTRO AND SECTION INTRO    */
+body .grid-pad,
+body [class*='col-'] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+h2 {
+  font-size: 6rem;
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+.intro {
+  margin: 12rem 0 7rem;
+}
+.intro h2 {
+  text-align: center;
+}
+.intro h3 {
+  margin: 0 12rem 5rem;
+}
+
+.section-intro {
+  margin: 12rem 0 7rem;
+}
+.section-intro h2 {
+  text-align: center;
+  margin-bottom: 5rem;
+  line-height: 5rem;
+}
+.section-intro .question {
+  margin: 0 12rem 5rem;
+}
+
+/*     INFO PANEL     */
+.info-panels .info-panel-blurb {
+  height: 400px;
+  display: table;
+}
+.info-panels .info-panel-image {
+  height: 400px;
+  margin: 0 auto;
+  display: block;
+  background: #ccc;
+  background-position: center center;
+  background-size: cover;
+}
+.info-panels .single-info-panel:nth-child(even) .info-panel-blurb {
+  left: 50%;
+  position: relative;
+}
+.info-panels .single-info-panel:nth-child(even) .info-panel-image {
+  right: 50%;
+  position: relative;
+}
+.info-panels .grid-pad.single-info-panel {
+  padding: 0;
+}
+.info-panels .single-info-panel .col-1-2 {
+  padding: 0px;
+}
+.info-panels .info-panel-blurb h1 {
+  font-size: 7rem;
+  padding: 7rem 7rem 0;
+}
+.info-panels .info-panel-blurb p {
+  padding: 0 7rem;
+}
+
+/*     OPT-IN PRE-FOOTER    */
+.opt-in .grid-pad,
+.opt-in .col-1-1 {
+  padding: 0;
+}
+.opt-in .grid {
+  max-width: 2000px;
+  margin-top: 12rem;
+}
+.opt-in .banner-image {
+  height: 21rem;
+  background-size: cover;
+  width: 100%;
+  /*margin: 8rem 0;*/
+  text-align: center;
+}
+.opt-in .banner-image .col-1-1 {
+  margin-top: 3rem;
+}
+
+/*     TESTIMONIALS     */
+.single-testimonial[class*='col-'] {
+  padding: 0 3rem 3rem;
+}
+.single-testimonial[class*='col-'] .user-pic {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 200px;
+  background-size: cover;
+  margin: 2rem auto;
+}
+.single-testimonial[class*='col-'] .user-quote {
+  width: 20vw;
+  height: auto;
+  margin-top: 2rem;
+}
+
+/*     BLOG MINI-FEED     */
+.blog-feed-mini .archive-news-post {
+  position: relative;
+  background-size: cover;
+}
+.blog-feed-mini .archive-news-post h2 {
+  position: absolute;
+  font-size: 3rem;
+  padding: 7rem 7rem;
+}
+.blog-feed-mini .archive-news-post h2 a {
+  color: white;
+  height: 100%;
+}
+.blog-feed-mini .layer {
+  background-color: rgba(248, 247, 216, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.blog-feed-mini .grid-pad,
+.blog-feed-mini .col-1-2 {
+  padding: 0;
+}
+.blog-feed-mini .section-intro h3 {
+  margin: 0 12rem 5rem;
+}
+
+/*   OUTRO   */
+.outro h2 {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+/*    INFO PANELS    */
+.when-where-how {
+  /* not working - look into */
+}
+.when-where-how .info-block {
+  margin: 0 12rem 5rem;
+  padding: 2rem 3rem;
+  background-color: rgba(203, 232, 226, 0.4);
+  border-bottom: 1rem solid #ffe250;
+}
+.when-where-how table tr td {
+  padding-top: 3rem;
+  padding-right: 1rem;
+}
+
+.register {
+  text-align: center;
+}
+
+a.featured-link button {
+  padding: 1.8rem 3rem 1.6rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+a.featured-link {
+  margin: 0 auto;
+  text-align: center;
+}
+
 /* Content Columns */
 .col-1-1 {
   width: 100%;
@@ -2070,17 +2276,165 @@ body {
 }
 
 @media handheld, only screen and (max-width: 979px) and (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
   #home-works .col-1-4 {
     width: 50%;
   }
 
-  .intro h1 {
-    font-size: 4rem;
+  .intro {
+    margin: 6rem 0 8rem;
+  }
+  .intro h2 {
+    line-height: 4rem;
+    padding: 0 1rem;
+  }
+  .intro h3 {
+    margin: 0px 6rem;
+    padding: 0 1rem;
+  }
+
+  .info-panels .info-panel-blurb h1 {
+    font-size: 5rem;
+    padding: 2rem 3rem 0;
+  }
+  .info-panels .info-panel-blurb p {
+    padding: 0 3rem;
+  }
+
+  .section-intro {
+    margin: 8rem 0 4rem;
+  }
+  .section-intro h2 {
+    line-height: 5rem;
+    margin-bottom: 0;
+    padding: 0 1rem;
+  }
+
+  .when-where-how .info-block {
+    margin: 0;
+    border-bottom: 0.5rem solid #ffe250;
+  }
+
+  .faqs .question {
+    margin: 0 5rem 5rem;
+  }
+
+  .register {
+    margin-top: 2rem;
+  }
+
+  #mc_embed_signup {
+    margin: 4rem 0;
   }
 }
 @media handheld, only screen and (max-width: 767px) {
-  .intro h1 {
-    font-size: 2.75rem;
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  h2 {
+    font-size: 2.7rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  #home-hero {
+    padding: 3rem 0;
+  }
+  #home-hero h1 {
+    line-height: 5rem;
+    font-weight: 300;
+  }
+
+  .intro {
+    margin: 0;
+  }
+  .intro h3 {
+    margin: 0 2rem 5rem;
+    font-size: 1.5rem;
+  }
+
+  .info-panels .info-panel-blurb {
+    height: auto;
+  }
+  .info-panels .info-panel-blurb h1 {
+    font-size: 4rem;
+    padding: 1rem 3rem 0;
+  }
+  .info-panels .info-panel-blurb p {
+    padding: 1rem 3rem 4rem;
+  }
+  .info-panels .single-info-panel:nth-child(even) .info-panel-blurb {
+    left: 0%;
+    position: relative;
+  }
+  .info-panels .single-info-panel:nth-child(even) .info-panel-image {
+    right: 0%;
+    position: relative;
+  }
+  .info-panels .info-panel-image {
+    height: 19rem;
+  }
+
+  .testimonials .single-testimonial .user-pic {
+    height: 40vw;
+    width: 40vw;
+  }
+
+  .section-intro {
+    margin: 6rem 0 3rem;
+  }
+  .section-intro h2 {
+    padding: 0 0.5rem;
+    line-height: 3rem;
+  }
+  .section-intro .question {
+    margin: 0 2rem 5rem;
+  }
+
+  .when-where-how [class*='col-'] {
+    width: 100%;
+  }
+  .when-where-how .info-block {
+    margin: 0;
+    padding: 2rem 2rem;
+    border-bottom: 0.5rem solid #ffe250;
+  }
+  .when-where-how .table .td {
+    padding-top: 3rem;
+    padding-right: 1rem;
+  }
+
+  .register {
+    margin-top: 2rem;
+  }
+
+  .faqs .question {
+    margin: 0 2rem 5rem;
+  }
+
+  #mc_embed_signup {
+    margin: 4rem 0;
+    padding: 2rem 2rem;
+    border-bottom: 0.5rem solid #ffe250;
+  }
+
+  .blog-feed-mini [class*='col-'] {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .grid {
@@ -2198,29 +2552,25 @@ body {
     height: 0;
   }
 }
-/*    MAILCHIMP FORM   */
-#mc_embed_signup {
-  clear: left;
-  margin: 0 12rem 5rem;
-  padding: 2rem 3rem;
-  background-color: rgba(203, 232, 226, 0.4);
-  border-bottom: 1rem solid #ffe250;
-}
-#mc_embed_signup input[type="submit"] {
-  border: 3px solid;
-}
-#mc_embed_signup .mc-field-group {
-  width: 47%;
-  float: left;
-  margin: 0.5rem;
-  clear: none;
-}
-#mc_embed_signup form {
-  padding: 0;
-}
+@media handheld, only screen and (max-width: 599px) {
+  #mc_embed_signup {
+    border-bottom: 0.5rem solid #ffe250;
+  }
+  #mc_embed_signup .mc-field-group {
+    width: 100%;
+  }
 
-#mc-embedded-subscribe {
-  margin: 2rem auto;
+  .blog-feed-mini .archive-news-post h2 {
+    padding: 4rem 2rem;
+    font-size: 2.2rem;
+  }
+
+  .opt-in .banner-image {
+    height: auto;
+  }
+  .opt-in .banner-image .col-1-1 {
+    margin: 3rem 2rem;
+  }
 }
 
 /*# sourceMappingURL=sassy.css.map */
