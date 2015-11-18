@@ -2201,6 +2201,10 @@ body {
 /*    MAILCHIMP FORM   */
 #mc_embed_signup {
   clear: left;
+  margin: 0 12rem 5rem;
+  padding: 2rem 3rem;
+  background-color: rgba(203, 232, 226, 0.4);
+  border-bottom: 1rem solid #ffe250;
 }
 #mc_embed_signup input[type="submit"] {
   border: 3px solid;
