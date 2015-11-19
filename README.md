@@ -1,6 +1,8 @@
-## Local Development
+## Developing this locally
 
-1. Install Jekyll and plug-ins in one fell swoop. 
+### Ingredients
+
+* Install Jekyll and plug-ins in one fell swoop. 
 
   Open Terminal and run `sudo gem install -n /usr/local/bin github-pages` 
   
@@ -12,7 +14,10 @@
 
   `npm install -g grunt-cli` 
 * Install the [LiveReload Chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
-* Clone this repository.
+
+### Method
+
+1. Clone this repository.
 * In Terminal, navigate to the repository's local clone, then `grunt`
 * Grunt will rebuild the site (blog, sass, everything!) and serve it at `http://localhost:8080`
 
