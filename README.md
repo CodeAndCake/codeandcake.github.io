@@ -25,6 +25,14 @@ When you're happy, commit your changes and push everything to the master branch 
 
 :rocket:
 
+
+### Cross Platform Tasting
+
+When the food is ready, invite your different platforms and see their feedback with this  [tasting tool!](http://www.browsersync.io/)   
+   
+`npm install grunt-browser-sync`   
+`grunt tasting`
+
 <!-- 
 
 # Jekyll Now
