@@ -1,3 +1,32 @@
+## Developing this locally
+
+### Ingredients
+
+* Install Jekyll and plug-ins in one fell swoop. 
+
+  Open Terminal and run `sudo gem install -n /usr/local/bin github-pages` 
+  
+  This mirrors the plug-ins used by GitHub Pages on your local machine including [Jekyll](https://jekyllrb.com), [Sass](http://sass-lang.com), etc.
+
+  If it doesn't work, try `sudo gem update --system` and then `xcode-select --install`
+* Install [Node.js](https://nodejs.org/en/download)
+* Install the [Grunt CLI](http://gruntjs.com/getting-started)
+
+  `npm install -g grunt-cli` 
+* Install the [LiveReload Chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
+
+### Method
+
+1. Clone this repository.
+* In Terminal, navigate to the repository's local clone, then `grunt`
+* Grunt will rebuild the site (blog, sass, everything!) and serve it at `http://localhost:8080`
+
+When you're happy, commit your changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
+
+:rocket:
+
+<!-- 
+
 # Jekyll Now
 
 **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
@@ -118,3 +147,5 @@ Issues and Pull Requests are greatly appreciated. If you've never contributed to
 You can start by [opening an issue](https://github.com/barryclark/jekyll-now/issues/new) describing the problem that you're looking to resolve and we'll go from there.
 
 I want to keep Jekyll Now as minimal as possible. Every line of code should be one that's useful to 90% of the people using it. Please bear that in mind when submitting feature requests. If it's not something that most people will use, it probably won't get merged. :guardsman:
+
+-->
