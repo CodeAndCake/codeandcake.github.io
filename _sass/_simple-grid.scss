@@ -139,9 +139,21 @@
 
 	h3
 	{
-		font-size: 2rem;
+		font-size: 2.25rem;
 	}
-	#home-works .col-1-4 {
+
+	h4
+	{
+		font-size: 1.7rem;
+	}
+
+	p
+	{
+		font-size: 1.2rem;
+	}
+
+	#home-works .col-1-4 
+	{
 		width: 50%;
 	}
 
@@ -152,11 +164,10 @@
 
 		h2
 		{
-			line-height: 4rem;
 			padding: 0 1rem;
 		}
 
-		h3
+		p
 		{
     		margin: 0px 6rem;
     		padding: 0 1rem;
@@ -167,7 +178,7 @@
 	{
 		.info-panel-blurb 
 		{
-			h1 
+			h2 
 			{
 			    font-size: 5rem;
 			    padding: 2rem 3rem 0;
@@ -185,11 +196,10 @@
 	.section-intro
 	{
 
-		margin: 8rem 0 4rem;
+		margin: 6rem 0 0rem;
 		
 		h2
 		{
-    		line-height: 5rem;
     		margin-bottom: 0;
     		padding: 0 1rem;
 		}
@@ -198,10 +208,10 @@
 
 	.when-where-how
 	{
-
 		.info-block
 		{
 			margin: 0;
+			padding: 2rem 5rem;
 			border-bottom: 0.5rem solid #ffe250;
 		}
 	}
@@ -210,37 +220,45 @@
 	{
 		.question
 		{
-			margin: 0 5rem 5rem;
+			margin: 0;
+			padding: 2rem 5rem;
 		}
 	}
 
 	.register
 	{
-		margin-top: 2rem;
+		margin: 2rem auto;
 	}
-
-	#mc_embed_signup
-	{
-		margin: 4rem 0;
-	}
-	
 }
 
 @media handheld, only screen and (max-width: 767px) {
 
 	h1
 	{
-		font-size: 3.6rem
+		font-size: 3.6rem;
+		line-height: 4rem;
 	}
 
 	h2
 	{
-		font-size: 2.7rem
+		font-size: 2.7rem;
+		line-height: 4rem;
 	}
 
 	h3
 	{
-		font-size: 2rem
+		font-size: 2rem;
+	}
+
+	h4
+	{
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+
+	p
+	{
+		font-size: 1rem;
 	}
 
 	#home-hero 
@@ -250,8 +268,9 @@
 
 		h1 
 		{
-	    	line-height: 5rem;
 	    	font-weight: 300;
+	    	font-size: 3.6rem;
+	    	line-height: 4rem;
 		}
 	}
 
@@ -260,9 +279,9 @@
 		margin: 0;
 
 
-		h3
+		p
 		{
-			margin: 0 2rem 5rem;
+			margin: 1rem 2rem 5rem;
 			font-size: 1.5rem;
 		}
 	}
@@ -275,15 +294,14 @@
 			
 			height: auto;
 
-			h1
+			h2
 			{
-			    font-size: 4rem;
 			    padding: 1rem 3rem 0;
 			}
 
 			p 
 			{
-    			padding: 1rem 3rem 4rem;
+    			padding: 1rem 3rem 2rem;
 			}
 		}
 
@@ -308,24 +326,32 @@
 	.testimonials
 	{
 
-		.single-testimonial
+		.single-testimonial[class*='col-'] 
 		{
+			
+			padding: 0 7rem 3rem;
+
 			.user-pic
 			{
 				height: 40vw;
     			width: 40vw;
+			}
+
+			blockquote
+			{
+				padding: 1rem 1rem;
 			}
 		}
 	}
 
 	.section-intro
 	{
-		margin: 6rem 0 3rem;
+		margin: 4rem 0 0rem;
 
 		h2
 		{
-			padding: 0 0.5rem;
-    		line-height: 3rem;
+			margin-bottom: 0;
+    		padding: 0 1rem;
 		}
 
 		.question
@@ -344,8 +370,7 @@
 		{
 		    margin: 0;
 	    	padding: 2rem 2rem;
-		    border-bottom: 0.5rem solid #ffe250;
-
+		    // border-bottom: 0.5rem solid #ffe250;
 		}
 
 		.table
@@ -367,7 +392,8 @@
 	{
 		.question
 		{
-		    margin: 0 2rem 5rem;
+		    margin: 0;
+		    padding: 2rem 2rem;
 		}
 	}
 
@@ -380,14 +406,18 @@
 
 	.blog-feed-mini
 	{
+		
+		.section-intro
+		{
+			padding-bottom: 2rem;
+		}
+
 		[class*='col-']
 		{
 			margin-top: 0;
 			margin-bottom: 0;
 		}
 	}
-
-
 
 	.grid {
 		width: 100%;
@@ -516,10 +546,26 @@
 	} 
 	.blog-feed-mini 
 	{
-		.archive-news-post h2
+		.archive-news-post h3
 		{
 			padding: 4rem 2rem;
 			font-size: 2.2rem;
+		}
+	}
+
+	.testimonials
+	{
+
+		.single-testimonial[class*='col-'] 
+		{
+			
+			padding: 0 4rem 3rem;
+
+			.user-pic
+			{
+				height: 50vw;
+    			width: 50vw;
+			}
 		}
 	}
 
