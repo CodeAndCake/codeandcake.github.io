@@ -317,7 +317,7 @@ th {
 10.0 Content
 --------------------------------------------------------------*/
 
-ul.social-media-icons {
+/* ul.social-media-icons {
   	margin: 0;
   	padding: 0;
 	float:right;
@@ -341,7 +341,7 @@ ul.social-media-icons {
 
 .social-media-icons li .fa:hover {
 	color:#000000;
-} 
+}  */
 
 .site-header {
 	position: absolute;
@@ -364,7 +364,7 @@ ul.social-media-icons {
 }
 
 .site-title, .site-title a {
-	color: #404040;
+	// color: #404040;
     margin: 0;
 }
 
@@ -381,7 +381,7 @@ ul.social-media-icons {
 	padding: 120px 0;
 	text-align: center;
 	margin-bottom: 5rem;
-	color: #FFF;
+	// color: #FFF;
 }
 
 #home-hero h1 {
@@ -395,8 +395,8 @@ ul.social-media-icons {
 	margin: 0.75em auto;
 }
 
-#home-works {
-	background: #f1f1f1;
+/* #home-works {
+	// background: #f1f1f1;
 	padding: 30px 0;
 }
 
@@ -406,9 +406,9 @@ ul.social-media-icons {
 	text-align: center;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
-}
+} */
 
-.single-work {
+/* .single-work {
 	background: #fff;
 	margin-bottom: 35px;
 }
@@ -444,7 +444,7 @@ ul.social-media-icons {
 	background-size: cover;
 	display: block;
 }
-
+ */
 #home-blog {
 	padding: 30px 0 50px;
 }
@@ -540,7 +540,7 @@ h3.footer-contact-title {
 .page-entry-header {
 	padding: 120px 0 100px;
 	text-align: center;
-	background-color: #fff;
+	// background-color: #fff;
     background-position: top center; 
     background-size: cover;
     position: relative;
@@ -557,7 +557,7 @@ h3.footer-contact-title {
 }
 
 .entry-overlay {
-    background-color: rgba(255, 255, 255, 0.5);
+    // background-color: rgba(255, 255, 255, 0.5);
     bottom: 0;
     height: 100%;
     left: 0;
