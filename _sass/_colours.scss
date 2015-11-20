@@ -1,0 +1,109 @@
+body,
+button,
+input,
+select,
+textarea
+{
+	color: #111;
+}
+
+a 
+{
+	color: #666666;
+
+	&:hover,
+	&:focus
+	{
+		color: #000000;
+	}
+}	
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] 
+{
+	border: 3px solid;
+	border-color: #404040;
+	background: none;
+	box-shadow: none;
+	color: #404040;
+
+	&:hover,
+	&:focus,
+	&:active 
+	{
+		border-color: #000;
+		background: #000;
+		color: #fff;
+	}	
+}	
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	color: #666;
+	border: 1px solid #ccc;
+
+	&:focus {
+		color: #111;
+	}
+}	
+
+a.featured-link
+{
+	button
+	{
+		border-color: white;
+		color: white;
+	}
+}
+
+#home-hero
+{
+	a
+	{
+		button
+		{
+			border-color: white;
+			color: white;
+		}
+	}
+}
+
+.blog-feed-mini
+{
+	.archive-news-post
+	{
+		h3 a
+		{
+			color: white;
+		}
+	}
+}
+
+.when-where-how 
+{
+	background-color: $turquoise;
+	color: white;
+	border-bottom: 0.5rem solid $mango_lite;
+}	
+
+#mc_embed_signup
+{
+	background-color: $teal;
+	color: white;
+	border-bottom: 0.5rem solid $papaya;
+}	
+
+#mc_embed_signup_scroll
+{
+	input[type="submit"]
+	{
+		border-color: white;
+		color: white
+	}
+}
