@@ -2,7 +2,7 @@
 
 
 
-/*     INTRO AND SECTION INTRO    */
+
 
 body .grid-pad,
 body [class*='col-']
@@ -11,7 +11,7 @@ body [class*='col-']
 	padding-right: 0;
 }
 
-h1
+/* h1
 {
 	font-size: 8rem;
 }
@@ -34,9 +34,10 @@ h4
 h5
 {
 	font-size: 2.25rem;
-}
+} */
 
-.intro
+
+/* .intro
 {
 	margin: 12rem 0 7rem;
 
@@ -47,100 +48,77 @@ h5
 
 	p
 	{
-		margin: 1rem 12rem 5rem;
+		margin: 3rem 16rem;
+	}	
+} */
+
+#primary
+{
+	max-width: 960px;
+	margin: 0 auto;
+
+	p 
+	{
+		max-width: 720px;
+		padding: 0 1rem;
+		margin: auto;
+		margin-bottom: 2.25rem;
 	}
+
+	.col-1-2
+	{
+		p 
+		{
+			padding: 0;
+		}
+	}
+}
+
+section
+{
+	// margin-bottom: 4.5rem;
+	margin-bottom: 6.75rem;
+	clear: both;
+	display: block;
 }
 
 .section-intro
 {
-	margin: 12rem 0 4rem;
-
-	h2
+	h2, h3
 	{
 		text-align: center;
-		margin-bottom: 5rem;
 	}
 
-	
-}
-
-
-/*     INFO PANEL     */
-
-.info-panels
-{
-	.info-panel-blurb
+	/* p
 	{
-		height: 400px;
-    	display: table;
-    	
-	}
-	.info-panel-image
-	{
-		height: 400px;
-	    margin: 0 auto;
-	    display: block;
-	    background: #ccc;
-	    background-position: center center;
-	    background-size: cover;
-	}
-
-	.single-info-panel:nth-child(even) .info-panel-blurb
-	{
-		left: 50%;
-		position: relative;
-	}
-
-	.single-info-panel:nth-child(even) .info-panel-image
-	{
-		right: 50%;
-		position: relative;
-	}
-
-	.grid-pad.single-info-panel
-	{
-		padding: 0;
-	}
-
-	.single-info-panel .col-1-2
-	{
-		padding: 0px;
-	}
-
-	.info-panel-blurb h2
-	{
-	    padding: 4rem 4rem 0;
-	}
-
-	.info-panel-blurb p
-	{
-		padding: 1rem 4rem;
-	}
+		margin: 2rem 16rem;
+	} */
 }
 
 /*     OPT-IN PRE-FOOTER    */
 
-.opt-in
+/* .opt-in
 {
 
 	.grid-pad,
 	.col-1-1
 	{
-	 	padding: 0;
+		padding: 0;
 	}
 
 	.grid
 	{
-	 	max-width: 2000px;
-	 	margin-top: 12rem;
+		max-width: 2000px;
+		margin-top: 12rem;
 	}
 
 	.banner-image
 	{
 		background-size: cover;
 		width: 100%;
-		/*margin: 8rem 0;*/
+		// margin: 8rem 0;
 		text-align: center;
+
 	}
 
 	.banner-image .col-1-1
@@ -148,7 +126,7 @@ h5
 		margin-top: 3rem;
 	}
 
-}
+} */
 
 
 /*     TESTIMONIALS     */
@@ -182,37 +160,36 @@ h5
 }
 
 
- /*     BLOG MINI-FEED     */
+/*     BLOG MINI-FEED     */
 
-.blog-feed-mini
+/* .blog-feed-mini
 {
 	.archive-news-post
 	{
-	 	position: relative;
-	 	background-size: cover;
+		position: relative;
+		background-size: cover;
 
-	 	h3
-	 	{
-	 		position: absolute;
-		 	font-size: 3rem;
-		 	padding: 7rem 7rem;
-
-	 	}
-
-	 	h3 a
+		h3
 		{
-		 	height: 100%;
+			position: absolute;
+			font-size: 3rem;
+			padding: 7rem 7rem;
+		}
+
+		h3 a
+		{
+			height: 100%;
 		}
 	}
 
 	.layer
 	{
-	 	background-color: rgba(248, 247, 216, 0.5);
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    width: 100%;
-	    height: 100%;
+		background-color: rgba(248, 247, 216, 0.5);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
 	}
 
 	.grid-pad,
@@ -220,16 +197,8 @@ h5
 	{
 		padding: 0;
 	}
-
-	.section-intro p
-	{
-		margin: 0 12rem 5rem;
-	}
-
 }
- 
-
-
+ */
 /*   OUTRO   */
 
 .outro 
@@ -244,44 +213,37 @@ h5
 
 /*    INFO PANELS    */
 
-.when-where-how 
+/* .when-where-how 
 {
 	.info-block
 	{
 		margin: 0;
-		padding: 2rem 12rem 3rem;	
+		// padding: 0 12rem;
+		clear: both;
 	}
 
 	table tr td
 	{
-    	padding-right: 1rem;
+			padding-right: 1rem;
 	}
-}
+} */
 
 // FAQS
 
-.faqs
+/* .faqs
 {
-	
-	// .section-intro
-	// {
-	// 	background-color: $papaya;
-	// 	color: $chalk;
-	// }
-	
 	.question
-		{
-			margin: 0 0 5rem;
-			padding: 0 12rem;
-		}
-}
+	{
+		margin: 0 0 5rem;
+		padding: 0 12rem;
+	}
+} */
 
 // REGISTER BUTTON
 
 .register
 {
 	text-align: center;
-
 }
 
 a.featured-link button
@@ -289,8 +251,8 @@ a.featured-link button
 	padding: 1.8rem 3rem 1.6rem;
 	font-size: 1rem;
 	font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 4rem;
+	text-transform: uppercase;
+	margin: 4rem auto 0;
 }
 
 a.featured-link
@@ -298,4 +260,22 @@ a.featured-link
 	margin: 0 auto;
 	text-align: center;
 }
+
+// BANNER IMAGES
+
+.banner-image
+{
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	/*margin: 8rem 0;*/
+	text-align: center;
+	padding: 4.5rem 0;
+}
+
+.banner-image .col-1-1
+{
+	margin-top: 3rem;
+}
+
 

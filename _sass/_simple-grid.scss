@@ -1,3 +1,7 @@
+[class*='col-'] {
+    float: left;
+}    
+
 /* Content Columns */
 
 .col-1-1 {
@@ -127,7 +131,7 @@
 
 @media handheld, only screen and (max-width: 979px) and (min-width: 768px) {
 	
-	h1
+	/* h1
 	{
 		font-size: 4rem;
 	}
@@ -150,90 +154,87 @@
 	p
 	{
 		font-size: 1.2rem;
-	}
+	} */
 
-	#home-works .col-1-4 
-	{
-		width: 50%;
-	}
+	// #home-works .col-1-4 
+	// {
+	// 	width: 50%;
+	// }
 
-	.intro
-	{
+	// .intro
+	// {
 
-		margin: 6rem 0 8rem;
+	// 	margin: 6rem 0 8rem;
 
-		h2
-		{
-			padding: 0 1rem;
-		}
+	// 	h2
+	// 	{
+	// 		padding: 0 1rem;
+	// 	}
 
-		p
-		{
-    		margin: 0px 6rem;
-    		padding: 0 1rem;
-		}
-	}
+	// 	p
+	// 	{
+ //    		margin: 0px 6rem;
+ //    		padding: 0 1rem;
+	// 	}
+	// }
 
-	.info-panels
-	{
-		.info-panel-blurb 
-		{
-			h2 
-			{
-			    font-size: 5rem;
-			    padding: 2rem 3rem 0;
-			}
+	// .info-panels
+	// {
+	// 	.info-panel-blurb 
+	// 	{
+	// 		h2 
+	// 		{
+	// 		    // font-size: 5rem;
+	// 		    padding: 2rem 3rem 0;
+	// 		}
 
-			p 
-			{
-	    		padding: 0 3rem;
-			}
+	// 		p 
+	// 		{
+	//     		padding: 0 3rem;
+	// 		}
+	// 	}
+	// }
 
-		}
+	// .section-intro
+	// {
+	// 	margin: 6rem 0 0rem;
 		
-	}
+	// 	h2
+	// 	{
+ //    		margin-bottom: 0;
+ //    		padding: 0 1rem;
+	// 	}
 
-	.section-intro
-	{
+	// }
 
-		margin: 6rem 0 0rem;
-		
-		h2
-		{
-    		margin-bottom: 0;
-    		padding: 0 1rem;
-		}
+// 	.when-where-how
+// 	{
+// 		.info-block
+// 		{
+// 			margin: 0;
+// 			padding: 2rem 5rem;
+// 			border-bottom: 0.5rem solid #ffe250;
+// 		}
+// 	}
 
-	}
+// 	.faqs
+// 	{
+// 		.question
+// 		{
+// 			margin: 0;
+// 			padding: 2rem 5rem;
+// 		}
+// 	}
 
-	.when-where-how
-	{
-		.info-block
-		{
-			margin: 0;
-			padding: 2rem 5rem;
-			border-bottom: 0.5rem solid #ffe250;
-		}
-	}
-
-	.faqs
-	{
-		.question
-		{
-			margin: 0;
-			padding: 2rem 5rem;
-		}
-	}
-
-	.register
-	{
-		margin: 2rem auto;
-	}
-}
+// 	.register
+// 	{
+// 		margin: 2rem auto;
+// 	}
+// }
 
 @media handheld, only screen and (max-width: 767px) {
 
-	h1
+	/* h1
 	{
 		font-size: 3.6rem;
 		line-height: 4rem;
@@ -259,51 +260,51 @@
 	p
 	{
 		font-size: 1rem;
-	}
+	} */
 
-	#home-hero 
-	{
+	// #home-hero 
+	// {
 		
-		padding: 3rem 0;
+	// 	padding: 3rem 0;
 
-		h1 
-		{
-	    	font-weight: 300;
-	    	font-size: 3.6rem;
-	    	line-height: 4rem;
-		}
-	}
+	// 	h1 
+	// 	{
+	//     	font-weight: 300;
+	//     	font-size: 3.6rem;
+	//     	line-height: 4rem;
+	// 	}
+	// }
 
-	.intro 
-	{
-		margin: 0;
+	// .intro 
+	// {
+	// 	margin: 0;
 
 
-		p
-		{
-			margin: 1rem 2rem 5rem;
-			font-size: 1.5rem;
-		}
-	}
+	// 	p
+	// 	{
+	// 		margin: 1rem 2rem 5rem;
+	// 		font-size: 1.5rem;
+	// 	}
+	// }
 
-	.info-panels
-	{
+	// .info-panels
+	// {
 
-		.info-panel-blurb
-		{
+	// 	.info-panel-blurb
+	// 	{
 			
-			height: auto;
+	// 		height: auto;
 
-			h2
-			{
-			    padding: 1rem 3rem 0;
-			}
+	// 		h2
+	// 		{
+	// 		    padding: 1rem 3rem 0;
+	// 		}
 
-			p 
-			{
-    			padding: 1rem 3rem 2rem;
-			}
-		}
+	// 		p 
+	// 		{
+ //    			padding: 1rem 3rem 2rem;
+	// 		}
+	// 	}
 
 		.single-info-panel:nth-child(even) .info-panel-blurb
 		{
@@ -317,34 +318,34 @@
 			position: relative;
 		}
 
-		.info-panel-image
-		{
-			height: 19rem;
-		}
-	}
+	// 	.info-panel-image
+	// 	{
+	// 		height: 19rem;
+	// 	}
+	// }
 
-	.testimonials
-	{
+	// .testimonials
+	// {
 
-		.single-testimonial[class*='col-'] 
-		{
+	// 	.single-testimonial[class*='col-'] 
+	// 	{
 			
-			padding: 0 7rem 3rem;
+	// 		padding: 0 7rem 3rem;
 
-			.user-pic
-			{
-				height: 40vw;
-    			width: 40vw;
-			}
+	// 		.user-pic
+	// 		{
+	// 			height: 40vw;
+ //    			width: 40vw;
+	// 		}
 
-			blockquote
-			{
-				padding: 1rem 1rem;
-			}
-		}
-	}
+	// 		blockquote
+	// 		{
+	// 			padding: 1rem 1rem;
+	// 		}
+	// 	}
+	// }
 
-	.section-intro
+/* 	.section-intro
 	{
 		margin: 4rem 0 0rem;
 
@@ -358,53 +359,53 @@
 		{
 		    margin: 0 2rem 5rem;
 		}
-	}
+	} */
 
-	.when-where-how
-	{
-		[class*='col-']
-		{
-			width: 100%;
-		}
-		.info-block
-		{
-		    margin: 0;
-	    	padding: 2rem 2rem;
-		    // border-bottom: 0.5rem solid #ffe250;
-		}
+	// .when-where-how
+	// {
+	// 	[class*='col-']
+	// 	{
+	// 		width: 100%;
+	// 	}
+	// 	.info-block
+	// 	{
+	// 	    margin: 0;
+	//     	padding: 2rem 2rem;
+	// 	    // border-bottom: 0.5rem solid #ffe250;
+	// 	}
 
-		.table
-		{
-			.td
-			{
-				padding-top: 3rem;
-			    padding-right: 1rem;
-			}
-		}
-	}
+	// 	.table
+	// 	{
+	// 		.td
+	// 		{
+	// 			padding-top: 3rem;
+	// 		    padding-right: 1rem;
+	// 		}
+	// 	}
+	// }
 
-	.register
-	{
-		margin-top: 2rem;
-	}
+	// .register
+	// {
+	// 	margin-top: 2rem;
+	// }
 
-	.faqs
-	{
-		.question
-		{
-		    margin: 0;
-		    padding: 2rem 2rem;
-		}
-	}
+	// .faqs
+	// {
+	// 	.question
+	// 	{
+	// 	    margin: 0;
+	// 	    padding: 2rem 2rem;
+	// 	}
+	// }
 
-	#mc_embed_signup
-	{
-	    margin: 4rem 0;
-	    padding: 2rem 2rem;
-	    border-bottom: 0.5rem solid #ffe250;
-	}
+	// #mc_embed_signup
+	// {
+	//     margin: 4rem 0;
+	//     padding: 2rem 2rem;
+	//     border-bottom: 0.5rem solid #ffe250;
+	// }
 
-	.blog-feed-mini
+/* 	.blog-feed-mini
 	{
 		
 		.section-intro
@@ -417,7 +418,7 @@
 			margin-top: 0;
 			margin-bottom: 0;
 		}
-	}
+	} */
 
 	.grid {
 		width: 100%;
@@ -535,50 +536,50 @@
 
 @media handheld, only screen and (max-width: 599px) {
 
-	#mc_embed_signup
-	{
-		border-bottom: 0.5rem solid #ffe250;
+// 	#mc_embed_signup
+// 	{
+// 		border-bottom: 0.5rem solid #ffe250;
 
-		.mc-field-group
-		{
-			width: 100%;
-		}
-	} 
-	.blog-feed-mini 
-	{
-		.archive-news-post h3
-		{
-			padding: 4rem 2rem;
-			font-size: 2.2rem;
-		}
-	}
+// 		.mc-field-group
+// 		{
+// 			width: 100%;
+// 		}
+// 	} 
+// 	.blog-feed-mini 
+// 	{
+// 		.archive-news-post h3
+// 		{
+// 			padding: 4rem 2rem;
+// 			font-size: 2.2rem;
+// 		}
+// 	}
 
-	.testimonials
-	{
+// 	.testimonials
+// 	{
 
-		.single-testimonial[class*='col-'] 
-		{
+// 		.single-testimonial[class*='col-'] 
+// 		{
 			
-			padding: 0 4rem 3rem;
+// 			padding: 0 4rem 3rem;
 
-			.user-pic
-			{
-				height: 50vw;
-    			width: 50vw;
-			}
-		}
-	}
+// 			.user-pic
+// 			{
+// 				height: 50vw;
+//     			width: 50vw;
+// 			}
+// 		}
+// 	}
 
-	.opt-in
-	{
-		.banner-image
-		{
-			height: auto;
+// 	.opt-in
+// 	{
+// 		.banner-image
+// 		{
+// 			height: auto;
 
-			.col-1-1
-			{
-				margin: 3rem 2rem;
-			}
-		}
+// 			.col-1-1
+// 			{
+// 				margin: 3rem 2rem;
+// 			}
+// 		}
 	}
 }
