@@ -172,6 +172,7 @@ hr {
 
 b, strong, em, small, code {
   line-height: 1;
+  font-weight: 700;
 }
 
 body {
@@ -185,6 +186,12 @@ button, input, select, textarea {
   font-family: "Etica", -apple-system-font, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-style: inherit;
+}
+
+.handwriting {
+  font-family: 'Pacifico', cursive;
+  padding: 0 .25rem;
+  font-size: 95%;
 }
 
 /* h1,
@@ -958,13 +965,7 @@ section {
   display: block;
 }
 
-.section-intro {
-  /* p
-  {
-  	margin: 2rem 16rem;
-  } */
-}
-.section-intro h2, .section-intro h3 {
+.centred {
   text-align: center;
 }
 

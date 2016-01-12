@@ -55,6 +55,7 @@ hr {
 }
 b, strong, em, small, code {
   line-height: 1;
+  font-weight: 700;
 }
 
 body
@@ -79,7 +80,14 @@ button, input, select, textarea
   // font-family: inherit;
   // font-weight: 600;
   font-style: inherit;
-}  	
+}  
+
+.handwriting
+{
+  font-family: 'Pacifico', cursive;
+  padding: 0 .25rem;
+  font-size: 95%;
+}	
 
 /* h1,
 h2,
