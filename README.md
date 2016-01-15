@@ -18,8 +18,9 @@
 ### Method
 
 1. Clone this repository.
-* In Terminal, navigate to the repository's local clone, then `grunt`
-* Grunt will rebuild the site (blog, sass, everything!) and serve it at `http://localhost:8080`
+* In Terminal, navigate to the repository's local clone, then `npm install`. This will install all the required modules.  
+* Once all the modules are installed, `grunt`!
+* Grunt will rebuild the site (blog, sass, everything!) and serve it at `http://localhost:8080`.
 
 When you're happy, commit your changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
 
@@ -28,9 +29,8 @@ When you're happy, commit your changes and push everything to the master branch 
 
 ### Cross Platform Tasting
 
-When the food is ready, invite your different platforms and see their feedback with this  [tasting tool!](http://www.browsersync.io/)   
-   
-`npm install grunt-browser-sync`   
+When the food is ready, invite your different platforms and see their feedback with this [tasting tool](http://www.browsersync.io/)!
+
 `grunt tasting`
 
 <!-- 
