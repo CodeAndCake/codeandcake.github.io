@@ -1,5 +1,5 @@
 {
-  "name": "AppsFromScratch-Blog",
+  "name": "AppsFromScratch",
   "version": "0.0.1",
   "devDependencies": {
     "grunt": "~0.4.2",
@@ -8,5 +8,10 @@
     "grunt-contrib-sass": "~0.9.2",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-shell": "~0.6.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodeAndCake/codeandcake.github.io.git"
+  },
+  "license": "CC-BY-NC-4.0"
 }
