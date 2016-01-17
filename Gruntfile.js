@@ -16,7 +16,7 @@ module.exports = function(grunt) {
 		sass: {
 			dist: {
 				options: {
-					style: 'expanded'
+					style: 'compressed'
 				},
 				files: {
 					'sassy.css': '_sass/sassy.scss'
@@ -63,7 +63,7 @@ module.exports = function(grunt) {
 						ignoreInitial: true,
 						ignored: ['*.txt', 'node_modules', '.git'],
 					},
-					browser: "google chrome",
+					browser: 'google chrome',
 					notify: false
 				}	
 			}
