@@ -369,7 +369,16 @@ textarea {
   padding: 4.5rem 0;
 }
 .banner-image h2, .banner-image h3 {
-  text-shadow: -3px 3px .75rem white;
+  text-shadow: -2px 2px 0.5rem #000;
+  color: #fff;
+}
+.banner-image .raised {
+  position: relative;
+  top: -2.25rem;
+}
+
+.what-to-bring .banner-image {
+  margin-bottom: 2.25rem;
 }
 
 .info-panels {
@@ -400,6 +409,10 @@ textarea {
   z-index: 1;
   padding: 4.5rem 3rem 0 !important;
   font-size: 6.375rem;
+}
+.info-panels .white {
+  color: #fff;
+  text-shadow: -2px 2px 0.5rem #2A3333;
 }
 .info-panels .single-info-panel:nth-child(even) .info-panel-blurb {
   left: 50%;
