@@ -1,13 +1,19 @@
-#primary
+#main
 {
 	max-width: 960px;
 	margin: 0 auto;
+	padding: 0 1rem;
 
+	.how-much table,
+	.when-where .grid,
 	p 
 	{
 		max-width: 720px;
-		padding: 0 1rem;
 		margin: auto;
+	}
+
+	p 
+	{
 		margin-bottom: 2.25rem;
 	}
 
