@@ -12,6 +12,7 @@
 		{
 			height: $row * 11;
 			float: left;	
+			position: relative;
 		}
 
 		.info-panel-blurb
@@ -25,10 +26,22 @@
 		{
 			margin: 0 auto;
 			display: block;
-			// background: #ccc;
 			background-position: center center;
 			background-size: cover;
 			position: relative;
+		}
+
+		&:nth-child(odd)
+		{
+			.info-panel-blurb
+			{
+				right: 50%;
+			}
+
+			.info-panel-image
+			{
+				left: 50%;
+			}
 		}
 	}
 
@@ -36,25 +49,13 @@
 	{
 		position: absolute;
 		z-index: 1;
-		padding: $row * 2 3rem 0 !important;
+		padding: $row * 2 $row 0 !important;
 		font-size: 6.375rem; // like h1
 	}
 
 	.white
 	{
 		color: $white;
-		text-shadow: -2px 2px .5rem $charcoal;
-	}
-
-	.single-info-panel:nth-child(even) .info-panel-blurb
-	{
-		left: 50%;
-		position: relative;
-	}
-
-	.single-info-panel:nth-child(even) .info-panel-image
-	{
-		right: 50%;
-		position: relative;
+		text-shadow: -2px 2px .5rem rgba($charcoal, 0.3);
 	}
 }	

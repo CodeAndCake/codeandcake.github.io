@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="gridlover-grid">
+<html>
 	<head>
 		<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
@@ -11,15 +11,13 @@
 		<!-- <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css"> -->
 		<link href='https://fonts.googleapis.com/css?family=Neuton:700,300' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Lekton:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lekton:700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/sassy.css" />
 		<link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 	</head>
 
-	<body>
-		<div id="main" role="main" class="container">
-			{{ content }}
-		</div>
+	<body class="gridlover-grid">
+		{{ content }}
 		{% include analytics.html %}
 	</body>
 </html>

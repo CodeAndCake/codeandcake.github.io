@@ -33,4 +33,14 @@ img {
 
 table {
 	width: 100%;
+
+	td 
+	{
+		padding-right: 1rem;
+
+		&:last-child 
+		{
+			padding-right: 0;
+		}
+	}
 }

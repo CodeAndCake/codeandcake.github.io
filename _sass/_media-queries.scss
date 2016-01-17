@@ -1,86 +1,116 @@
-#primary
+#main
 {
 	max-width: 960px;
 	margin: 0 auto;
+	padding: 0 1rem;
 
+	.how-much table,
+	.when-where .grid,
 	p 
 	{
 		max-width: 720px;
-		padding: 0 1rem;
 		margin: auto;
-		margin-bottom: 2.25rem;
 	}
 
-	.col-1-2
+	p 
 	{
-		p 
-		{
-			padding: 0;
-		}
+		margin-bottom: 2.25rem;
 	}
 }
 
-@media handheld, only screen and (max-width: 767px) 
+@media (max-width: 959px) 
 {
-	.single-info-panel:nth-child(even) .info-panel-blurb
+	html 
 	{
-		left: 0%;
-		position: relative;
+		font-size: 13.3333333333333px; // p → 20px
 	}
 
-	.single-info-panel:nth-child(even) .info-panel-image
+	.banner-image,
+	.info-panels,
+	.testimonials
 	{
-		right: 0%;
-		position: relative;
+		margin-left: -1rem;
+		margin-right: -1rem;
+	}
+	
+	#home-hero h1,
+	.banner-image
+	{
+		padding-left: 1rem;
+    padding-right: 1rem;
+	}
+}	
+
+/* @media (max-width: 719px) 
+{
+	html {
+		font-size: 12px; // p → 18px
+	}	
+} */
+
+@media (max-width: 599px) 
+{
+
+	/* html {
+		font-size: 16px; // p → 24px
+	} */
+
+	#home-hero {
+		padding: $row * 2 0; 
+	}
+	
+	section {	
+		margin-bottom: $row * 2;
+	}
+	
+	h1 {
+		// font-size: 3.9375rem;
+		font-size: 55px;
+		line-height: $row * 2;
 	}
 
-	.grid 
+	h2 {
+		// font-size: 2.4375rem;
+		font-size: 40px;
+		line-height: $row * 2;
+	}
+
+	h3 {
+		font-size: 30px;
+	}
+
+	.grid
 	{
-		width: 100%;
-		min-width: 0;
-		margin-left: 0px;
-		margin-right: 0px;
-		padding-left: 20px; /* grid-space to left */
-		padding-right: 10px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */
+		[class*='col-']
+		{
+			// float: none;
+			width: 100%;
+		}
 	}
 	
-	[class*='col-'] 
+	.info-panels
 	{
-		width: auto;
-		float: none;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-top: 10px;
-		margin-bottom: 10px;
-		padding-left: 0px;
-		padding-right: 10px; /* column-space */
-	}
-	
-	/* Mobile Layout */
-	
-	[class*='mobile-col-'] 
-	{
-		float: left;
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-top: 0px;
-		margin-bottom: 10px;
-		padding-left: 0px;
-		padding-right: 10px; /* column-space */
-		padding-bottom: 0px;
-	}
-	
-	.mobile-col-1-1 {
-		width: 100%;
-	}
-	
-	.mobile-col-1-2, .mobile-col-6-12 {
-		width: 50%;
-	}
-	
-	.hide-on-mobile {
-		display: none !important;
-		width: 0;
-		height: 0;
-	}
+		.single-info-panel
+		{
+			height: auto;
+
+			.info-panel-blurb
+			{
+				height: auto;
+	    	padding-bottom: $row;
+			}
+
+			&:nth-child(odd)
+			{
+				.info-panel-blurb
+				{
+					right: 0%;
+				}	
+				.info-panel-image
+				{
+					left: 0%;
+				}
+			}
+		}
+	} 
 }
