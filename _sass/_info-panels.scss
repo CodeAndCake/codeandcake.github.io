@@ -12,6 +12,7 @@
 		{
 			height: $row * 11;
 			float: left;	
+			position: relative;
 		}
 
 		.info-panel-blurb
@@ -40,15 +41,16 @@
 		font-size: 6.375rem; // like h1
 	}
 
-	.single-info-panel:nth-child(even) .info-panel-blurb
+	.single-info-panel:nth-child(odd)
 	{
-		left: 50%;
-		position: relative;
-	}
+		.info-panel-blurb
+		{
+			right: 50%;
+		}
 
-	.single-info-panel:nth-child(even) .info-panel-image
-	{
-		right: 50%;
-		position: relative;
+		.info-panel-image
+		{
+			left: 50%;
+		}
 	}
 }	
