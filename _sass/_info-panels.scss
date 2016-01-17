@@ -26,10 +26,22 @@
 		{
 			margin: 0 auto;
 			display: block;
-			// background: #ccc;
 			background-position: center center;
 			background-size: cover;
 			position: relative;
+		}
+
+		&:nth-child(odd)
+		{
+			.info-panel-blurb
+			{
+				right: 50%;
+			}
+
+			.info-panel-image
+			{
+				left: 50%;
+			}
 		}
 	}
 
@@ -37,20 +49,13 @@
 	{
 		position: absolute;
 		z-index: 1;
-		padding: $row * 2 3rem 0 !important;
+		padding: $row * 2 $row 0 !important;
 		font-size: 6.375rem; // like h1
 	}
 
-	.single-info-panel:nth-child(odd)
+	.white
 	{
-		.info-panel-blurb
-		{
-			right: 50%;
-		}
-
-		.info-panel-image
-		{
-			left: 50%;
-		}
+		color: $white;
+		text-shadow: -2px 2px .5rem rgba($charcoal, 0.3);
 	}
 }	

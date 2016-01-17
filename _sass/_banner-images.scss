@@ -10,6 +10,23 @@
 
 	h2, h3
 	{
-		text-shadow: -3px 3px .75rem white;
+		text-shadow: -2px 2px .5rem $black;
+		// position: relative;
+  //   	top: -2.25rem;
+    	color: $white;
+	}
+
+	.raised
+	{	
+		position: relative;
+    	top: -2.25rem;
+	}
+}
+
+.what-to-bring 
+{
+	.banner-image
+	{
+		margin-bottom: $row * 1;
 	}
 }
