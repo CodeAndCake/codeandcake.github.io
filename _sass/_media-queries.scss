@@ -1,0 +1,86 @@
+#primary
+{
+	max-width: 960px;
+	margin: 0 auto;
+
+	p 
+	{
+		max-width: 720px;
+		padding: 0 1rem;
+		margin: auto;
+		margin-bottom: 2.25rem;
+	}
+
+	.col-1-2
+	{
+		p 
+		{
+			padding: 0;
+		}
+	}
+}
+
+@media handheld, only screen and (max-width: 767px) 
+{
+	.single-info-panel:nth-child(even) .info-panel-blurb
+	{
+		left: 0%;
+		position: relative;
+	}
+
+	.single-info-panel:nth-child(even) .info-panel-image
+	{
+		right: 0%;
+		position: relative;
+	}
+
+	.grid 
+	{
+		width: 100%;
+		min-width: 0;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 20px; /* grid-space to left */
+		padding-right: 10px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */
+	}
+	
+	[class*='col-'] 
+	{
+		width: auto;
+		float: none;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding-left: 0px;
+		padding-right: 10px; /* column-space */
+	}
+	
+	/* Mobile Layout */
+	
+	[class*='mobile-col-'] 
+	{
+		float: left;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		margin-bottom: 10px;
+		padding-left: 0px;
+		padding-right: 10px; /* column-space */
+		padding-bottom: 0px;
+	}
+	
+	.mobile-col-1-1 {
+		width: 100%;
+	}
+	
+	.mobile-col-1-2, .mobile-col-6-12 {
+		width: 50%;
+	}
+	
+	.hide-on-mobile {
+		display: none !important;
+		width: 0;
+		height: 0;
+	}
+}

@@ -1,0 +1,37 @@
+/*     TESTIMONIALS     */
+ 
+.testimonials
+{
+	// margin-bottom: 4.5rem;
+	.grid-pad
+	{
+		background-color: rgba(215,215,206,0.2);
+		padding: 2.25rem 2.25rem;
+	}
+
+	.single-testimonial[class*='col-']
+	{
+		padding: 2.25rem;	
+
+		&:nth-child(odd) {
+			clear: both;
+		}
+
+		.user-pic
+		{
+			height: 8rem; /* 192px */
+				width: 8rem;
+			border-radius: 200px;
+			background-size: cover;
+			margin: 0 auto 2.25rem;
+		}
+
+		.user-quote
+		{
+			width: 20vw;
+			height: auto;
+			margin-top: 2rem;
+		}
+
+	}
+}

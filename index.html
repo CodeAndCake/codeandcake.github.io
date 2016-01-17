@@ -3,350 +3,223 @@ layout: default
 ---
 
 <section id="home-hero" style="background-image: url('{{ site.baseurl }}/images/appmaking_dots@2x.jpg');"> 
-	<h1>{{ site.description }}</h1>
-	<!-- <a href="{{ site.eventbrite_url }}" class="featured-link"> 
-		<button>I want to learn</button>
-	</a>  -->
+	<div class="overlay">
+		<h1>{{ site.description }}</h1>
+	</div>
 </section>
 
-<!-- <section id="page-content-container"> -->
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
 
-			<!-- INTRO -->
-			<section>
-				<h2>Coding can open doors for you</h2>
-				<p>Code is a huge part of our daily lives. It powers your phone, your bank account, your social networks... it's everywhere.</p><p class="highlight">Today, all businesses are moving over to digital. It's essential to have a digital presence and for us to understand how that works.</p>
-				<!-- <p>Perhaps you teach in a school, dreading the computing curriculum, or your child is learning to code. </p>
-				<p>Maybe you work for a large company and want more opportunities to grow, or you run a small business and want to make quick, essential changes to your site without any hassle.</p>
-				<p>Maybe you're out of work, in transition or you have an app idea. </p> -->
-				<!-- <p><b>Learning to code can empower you.</b></p>
-				<p><b>We think it's essential to understand how code works and to make it work for us.</b></p> -->
-				<!-- <p>Learning to code will broaden your skills and make you indispensable in the workplace.</p> -->
-				<!-- <p>You'll begin to understand the endless possibilities of technology.</p> -->
-				<p>Coding allows you to get ideas off the ground and communicate seamlessly with developers (and budding child prodigy programmers).</p>
-				<p>People everywhere are cottoning on to this and learning to create on the Web.</p>
-				<p>Even in primary schools.</p>
-			</section>
+		<!-- INTRO -->
+		<section>
+			<h2 class="centred">Coding can open doors for you</h2>
+			<p>Code is a huge part of our daily lives. It powers your phone, your bank account, your social networks... it's everywhere.</p><p class="highlight">Today, all businesses are moving over to digital. It's essential to have a digital presence and for us to understand how that works.</p>
+			<!-- <p>Perhaps you teach in a school, dreading the computing curriculum, or your child is learning to code. </p>
+			<p>Maybe you work for a large company and want more opportunities to grow, or you run a small business and want to make quick, essential changes to your site without any hassle.</p>
+			<p>Maybe you're out of work, in transition or you have an app idea. </p> -->
+			<!-- <p><b>Learning to code can empower you.</b></p>
+			<p><b>We think it's essential to understand how code works and to make it work for us.</b></p> -->
+			<!-- <p>Learning to code will broaden your skills and make you indispensable in the workplace.</p> -->
+			<!-- <p>You'll begin to understand the endless possibilities of technology.</p> -->
+			<p>Once you know how to code, you can get ideas off the ground and communicate seamlessly with developers (and budding child prodigy programmers).</p>
+			<p>People everywhere are cottoning on to this and learning to create on the Web. Even in primary schools.</p>
+		</section>
 
-			<section>
-				<!-- <h2 class="centred">There's a course for that!</h2> -->
-				<h2 class="centred">No experience? No problem.</h2>
-				<!-- <p>New to coding?</p> -->
-				<p>Is <span class="handwriting"> learn to code </span> on your list of goals this year?</p>
-				<p>It's tough sifting through the endless resources with no-one to direct all your questions.</p>
-				<p class="highlight">Learning with others is fun and much easier than hacking away at online courses alone.</p>
-				<!-- <p>We're here to make it simple.</p> -->
-				<p>Join a group of determined, like-minded individuals to discuss, learn and make in a friendly environment.</p>
-				<h3>Get started on this 6-week course!</h3>
-				<p>You'll learn to code with HTML, CSS and JavaScript, the universal languages of the Web. We'll be using the browser to bring your app ideas to life.</p>
-				<p>You'll have access to laptops and friendly experts with plenty of links and resources to take away.</p>
-				<p>Book your place on our 6-week app-making Saturday course at Ravensbourne.</p>
-				<!-- BOOK BUTTON -->
-				<div class="register">
-					<a href="https://www.eventbrite.co.uk/e/design-and-code-your-own-app-15-16-term-2-gdsdcyoa152-tickets-19058017042" class="featured-link"><button>Book your place</button></a>
-				</div>
-			</section>	
+		<section>
+			<!-- <h2 class="centred">There's a course for that!</h2> -->
+			<h2 class="centred">No experience? No problem.</h2>
+			<!-- <p>New to coding?</p> -->
+			<p>Is <span class="handwriting"> learn to code </span> on your list of goals this year?</p>
+			<p>It's tough sifting through the endless resources with no-one to direct all your questions.</p>
+			<p class="highlight">Learning with others is fun and much easier than hacking away at online courses alone.</p>
+			<!-- <p>We're here to make it simple.</p> -->
+		</section>
 
-			<!-- IMAGE- COURSE FOR ME? -->
-			<section>
-				<div class="banner-image" style="background-image: url('{{ site.baseurl }}/images/appmaking_dots@2x.jpg');">
+		<section>
+			<h2 class="centred">Get started on this 6-week course</h2>
+			<p>Learn to code with HTML, CSS and JavaScript, the universal languages of the Web. We'll be using the browser to bring your app ideas to life.</p>
+			<p>You'll have access to laptops and friendly experts with plenty of links and resources to take away.</p>
+			<p class="highlight">Join a group of determined, like-minded individuals to discuss, learn and make in a friendly environment.</p>
+			<!-- BOOK BUTTON -->
+			<div class="register">
+				<a href="{{ site.eventbrite_url }}" class="button">Book your place</a>
+			</div>
+		</section>	
+
+		<!-- IMAGE- COURSE FOR ME? -->
+		<section>
+			<div class="banner-image" style="background-image: url('{{ site.baseurl }}/images/appmaking_dots@2x.jpg');">
+				<div class="overlay">
 					<h2 class="centred">Is this course for me?</h2>
 				</div>
+			</div>
 
-				<h3 class="centred">Teachers</h3>
-				<p>We know a few teachers who feel daunted and unsupported by the "new" computing curriculum. </p><p>With a solid knowledge-base and clear vision of how to build on it, you'll look forward to, and even enjoy, coding with your students.</p>
+			<h3 class="centred">Teachers</h3>
+			<p>We know a few teachers who feel daunted and unsupported by the "new" computing curriculum. </p><p>With a solid knowledge-base and clear vision of how to build on it, you'll look forward to, and even enjoy, coding with your students.</p>
 
-				<h3 class="centred">Parents</h3>
-				<p>You could be the cutting-edge parent who codes with their kids for fun :) </p><p>Once you grasp the basics of coding, you'll be able to get creative with your children, building cool stuff together and supplementing the things they learn at school.</p>
-				
-				<h3 class="centred">Up-skillers</h3>
-				<p>Perhaps you're looking for ways to make yourself more valuable in the workplace, or 2016 is the year you're going to move to a new position, company or  industry.</p><p>Boosting your tech skills will give you a competitive edge and open up new directions in your career.</p>
-
-				<h3 class="centred">Looking for work</h3>
-				<p>Investing in yourself and your skills is a great way to make some positive life changes for 2016. You may want to explore your career options or take a leap outside of your comfort zone.</p><p>In our personal experience, learning to create with code is hugely empowering and can give you a real confidence boost.</p>
-			</section>
-
-			<!-- PLAN PANELS -->
-			<section class="info-panels">
-				<h2 class="centred">What's the plan?</h2>
-				<div class="grid grid-pad single-info-panel">
-					<div class="col-1-2 info-panel-blurb"> 
-						<h3>What is an app?</h3>
-						<p>On the first day we discuss key concepts around apps (interface, logic, data) and start making with HTML & CSS.</p>
-					</div>
-					<div class="col-1-2 info-panel-image" style="background-image: url('images/UM62EOZSRC.jpg');">
-						<p class="number">01</p>
-					</div>
-				</div>
-				<div class="grid grid-pad single-info-panel">
-					<div class="col-1-2 info-panel-blurb"> 
-						<h3>UX research</h3>
-						<p>We work together to generate, spec out and test your app ideas. Then start programming with JavaScript.</p>
-					</div>
-					<div class="col-1-2 info-panel-image" style="background-image: url('images/UM62EOZSRC.jpg');">
-						<p class="number">02</p>
-					</div>
-				</div>
-				<div class="grid grid-pad single-info-panel">
-					<div class="col-1-2 info-panel-blurb">
-						<h3>UI design</h3> 
-						<p>You'll apply your research to sketch out how your app looks and behaves on paper. Then you'll make digital wireframes.</p>
-					</div>
-					<div class="col-1-2 info-panel-image" style="background-image: url('images/UM62EOZSRC.jpg');">
-						<p class="number">03</p>
-					</div>
-				</div>
-				<div class="grid grid-pad single-info-panel">
-					<div class="col-1-2 info-panel-blurb">
-						<h3>Programming 101</h3>
-						<p>You'll present your app designs and we'll review them together. Then get into the core concepts of programming.</p>
-					</div>
-					<div class="col-1-2 info-panel-image" style="background-image: url('images/UM62EOZSRC.jpg');">
-						<p class="number">04</p>
-					</div>
-				</div>
-				<div class="grid grid-pad single-info-panel">
-					<div class="col-1-2 info-panel-blurb"> 
-						<h3>JS libraries and debugging</h3>
-						<p>You will use JavaScript tools to speed up your development and learn how to troubleshoot your code, aka <i>debugging</i>.</p> 
-					</div>
-					<div class="col-1-2 info-panel-image" style="background-image: url('images/UM62EOZSRC.jpg');">
-						<p class="number">05</p>
-					</div>
-				</div>
-				<div class="grid grid-pad single-info-panel">
-					<div class="col-1-2 info-panel-blurb">
-						<h3>Celebrate</h3>
-						<p>Tweak your app prototype. Celebrate your achievements, and take away free resources to continue your learning journey.</p> 
-						<p></p>
-					</div>
-					<div class="col-1-2 info-panel-image" style="background-image: url('images/UM62EOZSRC.jpg');">
-						<p class="number">06</p>
-					</div>
-				</div>
-			</section>
-
-			<!-- HOW MUCH?  -->
-			<section>
-				<h2 class="centred">How much?</h2>
-				<div class="info-block">
-					<table>
-						<tr>
-							<td><p>Non-Greenwich resident</p></td>
-							<td><p><b>£91.20</b> + booking fee</p></td>
-						</tr>	
-						<tr>
-							<td><p>Greenwich resident without a Greenwich Card</p></td>
-							<td><p><b>£85.20</b> + booking fee</p></td>
-						</tr>
-						<tr>
-							<td><p>Greenwich Card holders</p></td>
-							<td><p><b>£78</b> + booking fee</p></td>
-						</tr>
-						<tr>
-							<td><p>Greenwich resident over 60 years of age</p></td>
-							<td><p><b>£50.40</b> + booking fee</p></td>
-						</tr>
-						<tr>
-							<td><p>Greenwich residents on means tested benefits</p></td>
-							<td><p><b>£24</b> + booking fee</p></td>
-						</tr>
-					</table>
-					
-					<!-- BOOK BUTTON -->
-					<div class="register">
-						<a href="https://www.eventbrite.co.uk/e/design-and-code-your-own-app-15-16-term-2-gdsdcyoa152-tickets-19058017042" class="featured-link">
-						<button>Book your place</button></a>
-					</div>
-				</div>
-			</section>
+			<h3 class="centred">Parents</h3>
+			<p>You could be the cutting-edge parent who codes with their kids for fun!</p><p>Once you grasp the basics of coding, you'll be able to get creative with your children, building cool stuff together and supplementing the things they learn at school.</p>
 			
-			<!-- WHEN & WHERE? -->	
-			<section>
-				<h2 class="centred">When and where?</h2>
-				<div class="info-block">
-					<div class="col-1-2 mobile-col-1-1">
-						<h3>6 Saturdays</h3>
-						<p>13th February - 19th March 2016</br>11AM - 4PM</p>
-					</div>
-					<div class="col-1-2 mobile-col-1-1">
-						<h3>Ravensbourne</h3>
-						<p>6 Penrose Way</br>Greenwich Peninsula</br>London</br>SE10 0EW</p>
-					</div>
+			<h3 class="centred">Up-skillers</h3>
+			<p>Perhaps you're looking for ways to make yourself more valuable in the workplace, or 2016 is the year you're going to move to a new position, company or  industry.</p><p>Boosting your tech skills will give you a competitive edge and open up new directions in your career.</p>
 
-					<!-- BOOK BUTTON -->
-					<div class="register">
-						<a href="https://www.eventbrite.co.uk/e/design-and-code-your-own-app-15-16-term-2-gdsdcyoa152-tickets-19058017042" class="featured-link"><button>Book your place</button></a>
-					</div>
+			<h3 class="centred">Looking for work</h3>
+			<p>Investing in yourself and your skills is a great way to make some positive life changes for 2016. You may want to explore your career options or take a leap outside of your comfort zone.</p><p>In our personal experience, learning to create with code is hugely empowering and can give you a real confidence boost.</p>
+		</section>
+
+		<!-- PLAN PANELS -->
+		<section class="info-panels">
+			<h2 class="centred">What's the plan?</h2>
+			<div class="grid grid-pad single-info-panel">
+				<div class="col-1-2 info-panel-blurb"> 
+					<h3>What is an app?</h3>
+					<p>On the first day we discuss key concepts around apps (interface, logic, data) and start making with HTML & CSS.</p>
 				</div>
-			</section>
-
-			<!-- WHO'S TEACHING? -->
-			<section>
-				<h2 class="centred">Who's teaching?</h2>
-				<p><b><a href="https://twitter.com/@baddeo">Matteo</a></b> is a senior lecturer for <a href="https://twitter.com/RaveWebMedia">Web Media at Ravensbourne</a> with loads of experience building apps and educational games. He loves teaching and has near-infinite patience.</p>
-				<p><b>Yuki</b> is a self-taught JavaScript ninja and a senior developer at <a href="http://www.themill.com/">The Mill</a>. He has plenty of inspiring links and JS tricks to share.</p>
-				<p><b><a href="http://aimeemj.com">Aimee</a></b> makes websites and clothes. She was in your shoes a year ago, reads puzzled faces and knows when to slow down the pace.</p>
-			</section>	
-
-			<!-- WHAT TO BRING? -->
-			<section>
-				<h2 class="centred">What do I need to bring?</h2>
-				<p>Laptops are available for everyone.</p>
-				<p>We recommend bringing a notebook and pen for jotting down useful resources.</p>
-				<p>If you have a laptop which you're used to, feel free to bring that along. You'll need to install <a href="https://www.google.com/chrome/">Google Chrome</a> beforehand.</p>
-			</section>	
-
-			<!-- TESTIMONIALS -->
-			<section class="testimonials">
-				<h2 class="centred">What are people saying?</h2>
-				<div class="grid grid-pad">
-					{% for post in site.categories.testimonials %}
-					<div class="col-1-2 mobile-col-1-1 single-testimonial">
-						{{ content }}
-						{% include home-testimonial-snippet.html %}
-					</div>
-					{% endfor %}
-				</div>
-
-				<!-- BOOK BUTTON -->
-				<div class="register">
-					<a href="https://www.eventbrite.co.uk/e/design-and-code-your-own-app-15-16-term-2-gdsdcyoa152-tickets-19058017042" class="featured-link"><button>Book your place</button></a>
-				</div>
-			</section>
-
-			<!-- QUESTIONS? -->
-			<section>
-				<h2 class="centred">More questions?</h2>
-				<p class="centred">Email Matteo! <b><a href="mailto:m.menapace@rave.ac.uk">m.menapace@rave.ac.uk</a></b></p>
-			</section>	
-
-			<!-- FAQs -->
-			<!-- <div class="faqs">
-				<div class="grid grid-pad">        
-					<div class="col-1-1">
-						<div class="section-intro">
-							<h2>FAQS</h2>
-						</div>
-					</div>
-				</div>
-				<div class="grid grid-pad">        
-					<div class="col-1-1">
-						<div class="question">
-							<h4>Do I need to bring anything?</h4>
-							<p>We provide Macbooks for you to use, however if you have a laptop you prefer using then bring that along.<br>An oldfashioned notebook and pen may be handy for logging important stuff!</p>
-						</div>
-						<div class="question">
-							<h4>Do I need to bring anything?</h4>
-							<p>We provide Macbooks for you to use, however if you have a laptop you prefer using then bring that along.<br>An oldfashioned notebook and pen may be handy for logging important stuff!</p>
-						</div>
-						<div class="question">
-							<h4>Do I need to bring anything?</h4>
-							<p>We provide Macbooks for you to use, however if you have a laptop you prefer using then bring that along.<br>An oldfashioned notebook and pen may be handy for logging important stuff!</p>
-						</div>
-						<div class="question">
-							<h4>Do I need to bring anything?</h4>
-							<p>We provide Macbooks for you to use, however if you have a laptop you prefer using then bring that along.<br>An oldfashioned notebook and pen may be handy for logging important stuff!</p>
-						</div>
-						<div class="register">
-						<a href="https://www.eventbrite.co.uk/e/design-and-code-your-own-app-15-16-term-2-gdsdcyoa152-tickets-19058017042" class="featured-link"><button>Book your place</button></a>
-						</div>
-						
-					</div>
-				</div>
-			</div> -->
-
-			<!-- MAILCHIMP SIGNUP -->
-			<!-- <div class="grid grid-pad">
-				<div class="col-1-1"> -->
-
-							<!-- Begin MailChimp Signup Form -->
-				
-					<!-- <div id="mc_embed_signup">
-					<form action="//github.us12.list-manage.com/subscribe/post?u=78e4a79db2cedf88c5c32997a&amp;id=7ecb180797" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-							<div id="mc_embed_signup_scroll">
-						<h4>Find out about upcoming courses and receive our free Design worksheets</h4>
-					<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-					<div class="mc-field-group">
-						<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-					</label>
-						<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-					</div>
-					<div class="mc-field-group">
-						<label for="mce-FNAME">Name </label>
-						<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-					</div>
-						<div id="mce-responses" class="clear">
-							<div class="response" id="mce-error-response" style="display:none"></div>
-							<div class="response" id="mce-success-response" style="display:none"></div>
-						</div> -->    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-							<!-- <div style="position: absolute; left: -5000px;"><input type="text" name="b_78e4a79db2cedf88c5c32997a_7ecb180797" tabindex="-1" value=""></div>
-							<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" ></div>
-							</div>
-					</form>
-					</div>-->
-					<!--End mc_embed_signup-->
-				<!-- </div>
-			</div> -->
-
-			<!-- BLOG -->
-			<!-- <div class="blog-feed-mini">
-				<div class="grid grid-pad">
-					<div class="col-1-1">
-						<div class="section-intro">
-							<h2>Blog</h2>
-						</div>
-					</div>
-				</div> -->
-
-				<!-- FEATURED -->
-				<!-- <div class="grid grid-pad">
-					{% for post in site.categories.featured %}
-					<div class="col-1-2">
-						{% include home-blog-snippet.html %}
-					</div>
-					{% endfor %}
-				</div> -->
-
-				<!-- ANOTHER CATEGORY -->
-				<!-- <div class="grid grid-pad">
-					{% for post in site.categories.homepage %}
-					<div class="col-1-2"> -->
-						<!-- TODO -->
-					<!-- </div>
-					{% endfor %}
-				</div> -->
-
-				<!-- OUTRO -->
-				<!-- <div class="outro">
-					<div class="grid grid-pad">
-						<div class="col-1-1">
-							<h4>There's more...</h4>
-						</div>
-					</div>
-				</div> -->
-				
-		</main>
-	</div>
-<!-- </section> -->
-
-
-<!-- WORKSHEETS OPT-IN -->
-<!-- <section class="opt-in">
-	<div class="grid grid-pad">
-		<div class="col-1-1">
-			<div class="content">
-				<div class="banner-image" style="background-image: url('{{ site.baseurl }}/images/negativespace-14.jpg');">
-					<div class="grid grid-pad">        
-						<div class="col-1-1">
-							<h3>Free printable worksheets</h3>
-							<h4>To help you plan and design your own app</h4>
-							<a href="#" class="featured-link"><button>Download now</button></a>
-						</div>
-					</div>
+				<div class="col-1-2 info-panel-image" style="background-image: url('images/UM62EOZSRC.jpg');">
+					<p class="number">01</p>
 				</div>
 			</div>
-		</div>
-	</div>
-</section> -->
+			<div class="grid grid-pad single-info-panel">
+				<div class="col-1-2 info-panel-blurb"> 
+					<h3>UX research</h3>
+					<p>We work together to generate, spec out and test your app ideas. Then start programming with JavaScript.</p>
+				</div>
+				<div class="col-1-2 info-panel-image" style="background-image: url('images/UM62EOZSRC.jpg');">
+					<p class="number">02</p>
+				</div>
+			</div>
+			<div class="grid grid-pad single-info-panel">
+				<div class="col-1-2 info-panel-blurb">
+					<h3>UI design</h3> 
+					<p>You'll apply your research to sketch out how your app looks and behaves on paper. Then you'll make digital wireframes.</p>
+				</div>
+				<div class="col-1-2 info-panel-image" style="background-image: url('images/UM62EOZSRC.jpg');">
+					<p class="number">03</p>
+				</div>
+			</div>
+			<div class="grid grid-pad single-info-panel">
+				<div class="col-1-2 info-panel-blurb">
+					<h3>Programming 101</h3>
+					<p>You'll present your app designs and we'll review them together. Then get into the core concepts of programming.</p>
+				</div>
+				<div class="col-1-2 info-panel-image" style="background-image: url('images/UM62EOZSRC.jpg');">
+					<p class="number">04</p>
+				</div>
+			</div>
+			<div class="grid grid-pad single-info-panel">
+				<div class="col-1-2 info-panel-blurb"> 
+					<h3>JS libraries and debugging</h3>
+					<p>You will use JavaScript tools to speed up your development and learn how to troubleshoot your code, aka <i>debugging</i>.</p> 
+				</div>
+				<div class="col-1-2 info-panel-image" style="background-image: url('images/UM62EOZSRC.jpg');">
+					<p class="number">05</p>
+				</div>
+			</div>
+			<div class="grid grid-pad single-info-panel">
+				<div class="col-1-2 info-panel-blurb">
+					<h3>Celebrate</h3>
+					<p>Tweak your app prototype. Celebrate your achievements, and take away free resources to continue your learning journey.</p> 
+					<p></p>
+				</div>
+				<div class="col-1-2 info-panel-image" style="background-image: url('images/UM62EOZSRC.jpg');">
+					<p class="number">06</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- HOW MUCH?  -->
+		<section>
+			<h2 class="centred">How much?</h2>
+			<div class="info-block">
+				<table>
+					<tr>
+						<td><p>Non-Greenwich resident</p></td>
+						<td><p><b>£91.20</b> + booking fee</p></td>
+					</tr>	
+					<tr>
+						<td><p>Greenwich resident without a Greenwich Card</p></td>
+						<td><p><b>£85.20</b> + booking fee</p></td>
+					</tr>
+					<tr>
+						<td><p>Greenwich Card holders</p></td>
+						<td><p><b>£78</b> + booking fee</p></td>
+					</tr>
+					<tr>
+						<td><p>Greenwich resident over 60 years of age</p></td>
+						<td><p><b>£50.40</b> + booking fee</p></td>
+					</tr>
+					<tr>
+						<td><p>Greenwich residents on means tested benefits</p></td>
+						<td><p><b>£24</b> + booking fee</p></td>
+					</tr>
+				</table>
+				
+				<!-- BOOK BUTTON -->
+				<div class="register">
+					<a href="{{ site.eventbrite_url }}" class="button">Book your place</a>
+				</div>
+			</div>
+		</section>
+		
+		<!-- WHEN & WHERE? -->	
+		<section>
+			<h2 class="centred">When and where?</h2>
+			<div class="grid grid-pad info-block">
+				<div class="col-1-2 mobile-col-1-1">
+					<h3>6 Saturdays</h3>
+					<p>13th February - 19th March 2016</br>11AM - 4PM</p>
+				</div>
+				<div class="col-1-2 mobile-col-1-1">
+					<h3>Ravensbourne</h3>
+					<p>6 Penrose Way</br>Greenwich Peninsula</br>London</br>SE10 0EW</p>
+				</div>
+			</div>
+			<!-- BOOK BUTTON -->
+			<div class="register">
+				<a href="{{ site.eventbrite_url }}" class="button">Book your place</a>
+			</div>
+		</section>
+
+		<!-- WHO'S TEACHING? -->
+		<section>
+			<h2 class="centred">Who's teaching?</h2>
+			<p><b><a href="https://twitter.com/@baddeo">Matteo</a></b> is a senior lecturer for <a href="https://twitter.com/RaveWebMedia">Web Media at Ravensbourne</a> with loads of experience building apps and educational games. He loves teaching and has near-infinite patience.</p>
+			<p><b>Yuki</b> is a self-taught JavaScript ninja and a senior developer at <a href="http://www.themill.com/">The Mill</a>. He has plenty of inspiring links and JS tricks to share.</p>
+			<p><b><a href="http://aimeemj.com">Aimee</a></b> makes websites and clothes. She was in your shoes a year ago, reads puzzled faces and knows when to slow down the pace.</p>
+		</section>	
+
+		<!-- WHAT TO BRING? -->
+		<section>
+			<h2 class="centred">What do I need to bring?</h2>
+			<p>Laptops are available for everyone.</p>
+			<p>We recommend bringing a notebook and pen for jotting down useful resources.</p>
+			<p>If you have a laptop which you're used to, feel free to bring that along. You'll need to install <a href="https://www.google.com/chrome/">Google Chrome</a> beforehand.</p>
+		</section>	
+
+		<!-- TESTIMONIALS -->
+		<section class="testimonials">
+			<h2 class="centred">What are people saying?</h2>
+			<div class="grid grid-pad">
+				{% for post in site.categories.testimonials %}
+				<div class="col-1-2 mobile-col-1-1 single-testimonial">
+					{{ content }}
+					{% include home-testimonial-snippet.html %}
+				</div>
+				{% endfor %}
+			</div>
+
+			<!-- BOOK BUTTON -->
+			<div class="register">
+				<a href="{{ site.eventbrite_url }}" class="button">Book your place</a>
+			</div>
+		</section>
+
+		<!-- QUESTIONS? -->
+		<section>
+			<h2 class="centred">More questions?</h2>
+			<p class="centred">Email Matteo! <b><a href="mailto:m.menapace@rave.ac.uk">m.menapace@rave.ac.uk</a></b></p>
+		</section>	
+			
+	</main>
+</div>

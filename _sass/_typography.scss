@@ -1,74 +1,68 @@
-@import 'etica-light-ttf';
-@import 'etica-ttf';
+// @import 'etica-light-ttf';
+// @import 'etica-ttf';
 
 // from http://www.gridlover.net/try, 24px base with golden ratio 1.618
 
-.gridlover-grid {
-  background-image: linear-gradient(to bottom, hsla(200, 100%, 50%, .3) 1px, transparent 1px);
-  background-position: left -1px;
-  background-repeat: repeat;
-  background-size: 2.25rem 2.25rem;
+  .gridlover-grid {
+    background-image: linear-gradient(to bottom, hsla(200, 100%, 50%, .3) 1px, transparent 1px);
+    background-position: left -1px;
+    background-repeat: repeat;
+    background-size: 2.25rem 2.25rem;
+
+    body {
+      box-shadow: 1px 0px 0px hsla(200, 100%, 50%, .3), -1px 0px 0px hsla(200, 100%, 50%, .3);
+    }
+  }
 
   body {
-    box-shadow: 1px 0px 0px hsla(200, 100%, 50%, .3), -1px 0px 0px hsla(200, 100%, 50%, .3);
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin: 0 auto;
   }
-}
-
-body {
-  // font-weight: 300;
-  font-style: normal;
-  font-size: 1.5rem;
-  line-height: 2.25rem;
-  // max-width: 760px;
-  // padding: 2.25rem;
-  margin: 0 auto;
-}
-h1 {
-  font-size: 6.375rem;
-  line-height: 6.75rem;
-  margin-top: 2.25rem;
-  margin-bottom: 0rem;
-}
-h2 {
-  font-size: 3.9375rem;
-  line-height: 4.5rem;
-  margin-top: 2.25rem;
-  margin-bottom: 2.25rem;
-}
-h3 {
-  font-size: 2.4375rem;
-  line-height: 4.5rem;
-  margin-top: 2.25rem;
-  margin-bottom: 0rem;
-}
-h4 {
-  font-size: 1.5rem;
-  line-height: 2.25rem;
-  margin-top: 2.25rem;
-  margin-bottom: 0rem;
-}
-h5 {
-  font-size: 1.5rem;
-  line-height: 2.25rem;
-  margin-top: 2.25rem;
-  margin-bottom: 0rem;
-}
-p, ul, ol, pre, table, blockquote {
-  margin-top: 0rem;
-  margin-bottom: 2.25rem;
-}
-ul ul, ol ol, ul ol, ol ul {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-hr {
-  border: 1px solid;
-  margin: -1px 0;
-}
-b, strong, em, small, code {
-  line-height: 1;
-  font-weight: 700;
-}
+  h1 {
+    font-size: 6.375rem;
+    line-height: 6.75rem;
+    margin-top: 2.25rem;
+    margin-bottom: 0rem;
+  }
+  h2 {
+    font-size: 3.9375rem;
+    line-height: 4.5rem;
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+  }
+  h3 {
+    font-size: 2.4375rem;
+    line-height: 4.5rem;
+    margin-top: 2.25rem;
+    margin-bottom: 0rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-top: 2.25rem;
+    margin-bottom: 0rem;
+  }
+  h5 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-top: 2.25rem;
+    margin-bottom: 0rem;
+  }
+  p, ul, ol, pre, table, blockquote {
+    margin-top: 0rem;
+    margin-bottom: 2.25rem;
+  }
+  ul ul, ol ol, ul ol, ol ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  b, strong, em, small, code {
+    line-height: 1;
+    font-weight: 700;
+  }
+// end gridlover
 
 .highlight {
  font-size: 2.4375rem;
@@ -78,25 +72,21 @@ b, strong, em, small, code {
 
 body
 {
-
-	// font-family: "Etica", -apple-system-font, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	// color: #111;
-	// font-size: 18px;
 	font-weight: 300;
-	// line-height: 1.6;
 	font-family: 'Neuton', serif;
-
 }
 
 h1, h2, h3, h4, h5, h6, 
 .number, 
+.button,
 button, input, select, textarea 
 {
 	
-	font-family: "Etica", -apple-system-font, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	// font-family: "Etica", -apple-system-font, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   // font-family: inherit;
   // font-weight: 600;
+  font-family: 'Lekton', sans-serif;
   font-style: inherit;
 }  
 
@@ -107,86 +97,21 @@ button, input, select, textarea
   font-size: 95%;
 }	
 
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  	font-weight: 700;
-	letter-spacing: -0.025em;
-	margin-top: 0;
-	clear: both;
-}
-
-h1 { font-size: 36px; line-height: 40px; }
-h2 { font-size: 32px; line-height: 7rem; }
-h3 { font-size: 28px; line-height: 5rem; font-weight: 400; }
-h4 { font-size: 24px; line-height: 4rem; font-weight: 300;}
-h5 { font-size: 20px; line-height: 24px; }
-h6 { font-size: 16px; line-height: 20px; }
-
-p {
-	margin-top: 1rem;
-	margin-bottom: 1.5em;
-	font-size: 1.5rem;
-}
-
-li {
-	margin-top: 1rem;
-	font-size: 1.5rem;
-} */
-
-dfn,
-cite,
-em,
-i {
-	font-style: italic;
-}
-
 blockquote {
 	// padding: 0 1.5em;
 	font-style: italic;
 	// border-left: 1px solid #ccc;
 }
 
-/* address {
-	margin: 0 0 1.5em;
+section
+{
+  // margin-bottom: 4.5rem;
+  margin-bottom: 8rem;
+  clear: both;
+  display: block;
 }
 
-pre {
-	background: #eee;
-	font-family: "Courier 10 Pitch", Courier, monospace;
-	font-size: 15px;
-	font-size: 0.9375rem;
-	line-height: 1.6;
-	margin-bottom: 1.6em;
-	max-width: 100%;
-	overflow: auto;
-	padding: 1.6em;
+.centred
+{
+  text-align: center;
 }
-
-code,
-kbd,
-tt,
-var {
-	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-	font-size: 15px;
-	font-size: 0.9375rem;
-} 
-
-abbr,
-acronym {
-	border-bottom: 1px dotted #666;
-	cursor: help;
-}
-
-mark,
-ins {
-	background: #fff9c0;
-	text-decoration: none;
-}
-
-big {
-	font-size: 125%;
-}*/

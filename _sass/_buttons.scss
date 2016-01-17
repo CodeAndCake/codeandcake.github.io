@@ -1,0 +1,27 @@
+// REGISTER BUTTON
+
+.register
+{
+	text-align: center;
+	clear: both;
+	margin-top: 4.5rem; 
+}
+
+a.button
+{
+	margin: auto;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	padding: 1.8rem 3rem 1.6rem;
+	// border: 1px solid $black;
+	border: 0;
+	background: $charcoal;
+	color: $white;
+	transition: all .3s;
+	border-radius: .2rem;
+
+	&:hover {
+		background: $black;
+	}
+}
