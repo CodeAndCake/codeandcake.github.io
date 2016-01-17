@@ -3,9 +3,7 @@ layout: default
 ---
 
 <section id="home-hero" style="background-image: url('{{ site.baseurl }}/images/appmaking_dots@2x.jpg');"> 
-	<div class="overlay">
-		<h1>{{ site.description }}</h1>
-	</div>
+	<h1>{{ site.description }}</h1>
 </section>
 
 <div id="primary" class="content-area">
@@ -43,16 +41,14 @@ layout: default
 			<p class="highlight">Join a group of determined, like-minded individuals to discuss, learn and make in a friendly environment.</p>
 			<!-- BOOK BUTTON -->
 			<div class="register">
-				<a href="{{ site.eventbrite_url }}" class="button">Book your place</a>
+				<a href="{{ site.eventbrite_url }}" class="button"><span>Book your place</span></a>
 			</div>
 		</section>	
 
 		<!-- IMAGE- COURSE FOR ME? -->
 		<section>
 			<div class="banner-image" style="background-image: url('{{ site.baseurl }}/images/appmaking_dots@2x.jpg');">
-				<div class="overlay">
-					<h2 class="centred">Is this course for me?</h2>
-				</div>
+				<h2 class="centred">Is this course for me?</h2>
 			</div>
 
 			<h3 class="centred">Teachers</h3>
@@ -109,8 +105,8 @@ layout: default
 			</div>
 			<div class="grid grid-pad single-info-panel">
 				<div class="col-1-2 info-panel-blurb"> 
-					<h3>JS libraries and debugging</h3>
-					<p>You will use JavaScript tools to speed up your development and learn how to troubleshoot your code, aka <i>debugging</i>.</p> 
+					<h3>JS tricks</h3>
+					<p>You will use JavaScript <i>libraries</i> to speed up your development and learn how to troubleshoot your code, aka <i>debugging</i>.</p> 
 				</div>
 				<div class="col-1-2 info-panel-image" style="background-image: url('images/UM62EOZSRC.jpg');">
 					<p class="number">05</p>
@@ -131,41 +127,39 @@ layout: default
 		<!-- HOW MUCH?  -->
 		<section>
 			<h2 class="centred">How much?</h2>
-			<div class="info-block">
-				<table>
-					<tr>
-						<td><p>Non-Greenwich resident</p></td>
-						<td><p><b>£91.20</b> + booking fee</p></td>
-					</tr>	
-					<tr>
-						<td><p>Greenwich resident without a Greenwich Card</p></td>
-						<td><p><b>£85.20</b> + booking fee</p></td>
-					</tr>
-					<tr>
-						<td><p>Greenwich Card holders</p></td>
-						<td><p><b>£78</b> + booking fee</p></td>
-					</tr>
-					<tr>
-						<td><p>Greenwich resident over 60 years of age</p></td>
-						<td><p><b>£50.40</b> + booking fee</p></td>
-					</tr>
-					<tr>
-						<td><p>Greenwich residents on means tested benefits</p></td>
-						<td><p><b>£24</b> + booking fee</p></td>
-					</tr>
-				</table>
-				
-				<!-- BOOK BUTTON -->
-				<div class="register">
-					<a href="{{ site.eventbrite_url }}" class="button">Book your place</a>
-				</div>
+			<table>
+				<tr>
+					<td><p>Non-Greenwich resident</p></td>
+					<td><p><b>£91.20</b> + booking fee</p></td>
+				</tr>	
+				<tr>
+					<td><p>Greenwich resident without a Greenwich Card</p></td>
+					<td><p><b>£85.20</b> + booking fee</p></td>
+				</tr>
+				<tr>
+					<td><p>Greenwich Card holders</p></td>
+					<td><p><b>£78</b> + booking fee</p></td>
+				</tr>
+				<tr>
+					<td><p>Greenwich resident over 60 years of age</p></td>
+					<td><p><b>£50.40</b> + booking fee</p></td>
+				</tr>
+				<tr>
+					<td><p>Greenwich residents on means tested benefits</p></td>
+					<td><p><b>£24</b> + booking fee</p></td>
+				</tr>
+			</table>
+			
+			<!-- BOOK BUTTON -->
+			<div class="register">
+				<a href="{{ site.eventbrite_url }}" class="button"><span>Book your place</span></a>
 			</div>
 		</section>
 		
 		<!-- WHEN & WHERE? -->	
-		<section>
+		<section class="when-where">
 			<h2 class="centred">When and where?</h2>
-			<div class="grid grid-pad info-block">
+			<div class="grid grid-pad">
 				<div class="col-1-2 mobile-col-1-1">
 					<h3>6 Saturdays</h3>
 					<p>13th February - 19th March 2016</br>11AM - 4PM</p>
@@ -177,7 +171,7 @@ layout: default
 			</div>
 			<!-- BOOK BUTTON -->
 			<div class="register">
-				<a href="{{ site.eventbrite_url }}" class="button">Book your place</a>
+				<a href="{{ site.eventbrite_url }}" class="button"><span>Book your place</span></a>
 			</div>
 		</section>
 
@@ -211,7 +205,7 @@ layout: default
 
 			<!-- BOOK BUTTON -->
 			<div class="register">
-				<a href="{{ site.eventbrite_url }}" class="button">Book your place</a>
+				<a href="{{ site.eventbrite_url }}" class="button"><span>Book your place</span></a>
 			</div>
 		</section>
 

@@ -4,14 +4,13 @@
 
 	.single-info-panel
 	{
-		// padding: 0;
 		clear: both;
-		height: 400px;
+		height: $row * 11;
 
 		.info-panel-blurb,
 		.info-panel-image
 		{
-			height: 400px;
+			height: $row * 11;
 			float: left;	
 		}
 
@@ -19,14 +18,14 @@
 		{
 			// display: table;
 			background-color: rgba(215,215,206,0.2);
-			padding: 0 2.25rem;	
+			padding: 0 $row ;	
 		}
 
 		.info-panel-image
 		{
 			margin: 0 auto;
 			display: block;
-			background: #ccc;
+			// background: #ccc;
 			background-position: center center;
 			background-size: cover;
 			position: relative;
@@ -37,8 +36,8 @@
 	{
 		position: absolute;
 		z-index: 1;
-		padding: 4.5rem 3rem 0 !important;
-		font-size: 6.375rem;
+		padding: $row * 2 3rem 0 !important;
+		font-size: 6.375rem; // like h1
 	}
 
 	.single-info-panel:nth-child(even) .info-panel-blurb
@@ -51,12 +50,5 @@
 	{
 		right: 50%;
 		position: relative;
-	}
-
-	.info-panel-blurb ul
-	{
-		padding: 2.25rem;
-		padding-left: 4.5rem;
-		margin: 0;
 	}
 }	

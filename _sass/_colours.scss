@@ -1,26 +1,21 @@
-$black: #000;
-$charcoal: #2A3333;
-$clouds: #4d4d4d;
-$white: #fff;
-
 body,
 button,
 input,
 select,
-textarea
-{
-	color: #111;
-}
-
-h1, h2, h3, h4, h5
-{
-	color:$charcoal;
-}
-
+textarea,
 p
 {
 	color: $clouds;
 }
+
+h1, h2, h3, h4, h5,
+.highlight,
+.handwriting,
+.number
+{
+	color:$charcoal;
+}
+
 a 
 {
 	color: #666666;

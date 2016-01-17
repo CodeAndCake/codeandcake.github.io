@@ -1,36 +1,14 @@
-//
 // VARIABLES
-//
 
-// Colours
-$blue: #4183C4;
+	// colours
 
-// $turquoise:#72FCF1;
-$turquoise:#59bdbd;
-$teal: #2AA1A8;
-$mango: #FFAE13;
-$mango_lite: #FFBB33;
-$papaya: #F5430E;
-$chalk: #F4FBFF;
-$midnight: #001B4F;
+	$black: #000;
+	$almost-black: #1a1a1a;
+	$charcoal: #2A3333;
+	$clouds: #4d4d4d;
+	$almost-white: rgb(243,248,248); // #eee;
+	$white: #fff;
 
-// Greys
-$black: #000;
-$charcoal: #0F0F0F;
-$darkerGrey: #222;
-$darkGrey: #444;
-$grey: #666;
-$lightGrey: #eee;
-$white: #fff;
+	// units
 
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
-
-// Mobile breakpoints
-@mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
-  }
-}
+	$row: 2.25rem;
