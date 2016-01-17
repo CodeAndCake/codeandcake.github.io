@@ -40,6 +40,12 @@
 		font-size: 6.375rem; // like h1
 	}
 
+	.white
+	{
+		color: $white;
+		text-shadow: -2px 2px .5rem $charcoal;
+	}
+
 	.single-info-panel:nth-child(even) .info-panel-blurb
 	{
 		left: 50%;
