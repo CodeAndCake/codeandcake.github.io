@@ -2,11 +2,11 @@
 # This file contains configuration flags to customize your site
 #
 
-# Name of your site (displayed in the header)
 name: Coding and app-making for beginners
-
-# Short bio or description (displayed in the header)
 description: Affordable coding classes in London, starting Saturday 16th April
+eventbrite_url: 'https://codeyourapp.eventbrite.co.uk'
+tweet: 'Introduction to #coding and #app-making. Affordable #classes in #London, starting Saturday 16th April'
+
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars3.githubusercontent.com/u/14252137
@@ -80,6 +80,3 @@ exclude:
     - Gruntfile.js
     - package.json
     - .sass-cache
-
-# OUR OWN STUFF
-eventbrite_url: 'https://codeyourapp.eventbrite.co.uk'
