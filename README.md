@@ -26,10 +26,9 @@ When you're happy, commit your changes and push everything to the master branch 
 
 :rocket:
 
+### Cross-platform *tasting*
 
-### Cross Platform Tasting
-
-When the food is ready, invite your different platforms and see their feedback with this [tasting tool](http://www.browsersync.io/)!
+When the food is ready, invite your different platforms and see their feedback with the [**browsersync** *tasting* tool](http://www.browsersync.io/)!
 
 `grunt tasting`
 
